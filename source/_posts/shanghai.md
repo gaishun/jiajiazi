@@ -2,6 +2,8 @@
 title: shanghai
 date: 2021-09-02 20:58:25
 tags:
+- 老婆
+- 上海
 ---
  ![](../shanghai/beer.jpg)
 
