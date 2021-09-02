@@ -5,48 +5,51 @@ tags:
 - 老婆
 - 上海
 ---
- ![](../shanghai/beer.jpg)
 
- ![](../shanghai/bishi.jpg)
+多图警告
+<!-- more -->
+ ![](./shanghai/beer.jpg)
 
- ![](../shanghai/deguo.jpg)
+ ![](./shanghai/bishi.jpg)
 
- ![](../shanghai/fukan1.jpg)
+ ![](./shanghai/deguo.jpg)
 
-![](../shanghai/fukan2.jpg)
+ ![](./shanghai/fukan1.jpg)
 
-![](../shanghai/fukan3.jpg)
+![](./shanghai/fukan2.jpg)
 
-![](../shanghai/guanghui1.jpg)
+![](./shanghai/fukan3.jpg)
 
-![](../shanghai/guanghuiyoutong.jpg)
+![](./shanghai/guanghui1.jpg)
 
-![](../shanghai/haidilao.jpg)
+![](./shanghai/guanghuiyoutong.jpg)
 
-![](../shanghai/haiguan.jpg)
+![](./shanghai/haidilao.jpg)
 
-![](../shanghai/huilaicaidaodeyifu.jpg)
+![](./shanghai/haiguan.jpg)
 
-![](../shanghai/ILU.jpg)
+![](./shanghai/huilaicaidaodeyifu.jpg)
 
-![](../shanghai/jingzi.jpg)
+![](./shanghai/ILU.jpg)
 
-![](../shanghai/jingzi2.jpg)
+![](./shanghai/jingzi.jpg)
 
-![](../shanghai/mingzhushui.jpg)
+![](./shanghai/jingzi2.jpg)
 
-![](../shanghai/mingzhuziji.jpg)
+![](./shanghai/mingzhushui.jpg)
 
-![](../shanghai/nanyixiangxiang.jpg)
+![](./shanghai/mingzhuziji.jpg)
 
-![](../shanghai/nanyixiangxiangzheshigangben001.jpg)
+![](./shanghai/nanyixiangxiang.jpg)
 
-![](../shanghai/rou.jpg)
+![](./shanghai/nanyixiangxiangzheshigangben001.jpg)
 
-![](../shanghai/shuoyihoujialiyezhuangchengzheyang.jpg)
+![](./shanghai/rou.jpg)
 
-![](../shanghai/VR.jpg)
+![](./shanghai/shuoyihoujialiyezhuangchengzheyang.jpg)
 
-![](../shanghai/yongganniuniubupakunnan.jpg)
+![](./shanghai/VR.jpg)
 
-![](../shanghai/youlang.jpg)
+![](./shanghai/yongganniuniubupakunnan.jpg)
+
+![](./shanghai/youlang.jpg)
