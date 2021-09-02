@@ -3,7 +3,7 @@ title: shanghai
 date: 2021-09-02 20:58:25
 tags:
 ---
- ![asdf](../shanghai/beer.jpg  style="zoom:33%;" )
+ ![](../shanghai/beer.jpg)
 
  ![](../shanghai/bishi.jpg)
 
