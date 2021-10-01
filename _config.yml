@@ -51,7 +51,7 @@ highlight:
   wrap: true
   hljs: false
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -103,9 +103,3 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-
-# 自动生成sitemap
-sitemap:
- path: sitemap.xml
-baidusitemap:
- path: baidusitemap.xml
