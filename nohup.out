@@ -1,0 +1,2555 @@
+
+restart
+Fri 03 Dec 2021 02:31:07 AM CST
+INFO  Validating config
+INFO  Start processing
+INFO  Hexo is running at http://localhost:80 . Press Ctrl+C to stop.
+0
+k is  0
+good
+restart
+Fri 03 Dec 2021 02:33:07 AM CST
+INFO  Validating config
+FATAL Port 80 has been used. Try other port instead.
+FATAL {
+  err: Error: listen EADDRINUSE: address already in use :::80
+      at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+      at listenInCluster (net.js:1364:12)
+      at Server.listen (net.js:1450:7)
+      at /root/MYBLOG/node_modules/hexo-server/lib/server.js:69:12
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at checkPort (/root/MYBLOG/node_modules/hexo-server/lib/server.js:66:10)
+      at Hexo.module.exports (/root/MYBLOG/node_modules/hexo-server/lib/server.js:18:10)
+      at Hexo.tryCatcher (/root/MYBLOG/node_modules/bluebird/js/release/util.js:16:23)
+      at Hexo.<anonymous> (/root/MYBLOG/node_modules/bluebird/js/release/method.js:15:34)
+      at /root/MYBLOG/node_modules/hexo/lib/hexo/index.js:260:17
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at Hexo.call (/root/MYBLOG/node_modules/hexo/lib/hexo/index.js:256:12)
+      at /usr/local/lib/node_modules/hexo-cli/lib/hexo.js:60:17
+      at tryCatcher (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)
+      at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:547:31)
+      at Promise._settlePromise (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:604:18)
+      at Promise._settlePromise0 (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:649:10)
+      at Promise._settlePromises (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:729:18) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 80
+  }
+} Something's wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html
+0
+k is  0
+good
+restart
+Fri 03 Dec 2021 02:35:07 AM CST
+INFO  Validating config
+FATAL Port 80 has been used. Try other port instead.
+FATAL {
+  err: Error: listen EADDRINUSE: address already in use :::80
+      at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+      at listenInCluster (net.js:1364:12)
+      at Server.listen (net.js:1450:7)
+      at /root/MYBLOG/node_modules/hexo-server/lib/server.js:69:12
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at checkPort (/root/MYBLOG/node_modules/hexo-server/lib/server.js:66:10)
+      at Hexo.module.exports (/root/MYBLOG/node_modules/hexo-server/lib/server.js:18:10)
+      at Hexo.tryCatcher (/root/MYBLOG/node_modules/bluebird/js/release/util.js:16:23)
+      at Hexo.<anonymous> (/root/MYBLOG/node_modules/bluebird/js/release/method.js:15:34)
+      at /root/MYBLOG/node_modules/hexo/lib/hexo/index.js:260:17
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at Hexo.call (/root/MYBLOG/node_modules/hexo/lib/hexo/index.js:256:12)
+      at /usr/local/lib/node_modules/hexo-cli/lib/hexo.js:60:17
+      at tryCatcher (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)
+      at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:547:31)
+      at Promise._settlePromise (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:604:18)
+      at Promise._settlePromise0 (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:649:10)
+      at Promise._settlePromises (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:729:18) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 80
+  }
+} Something's wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html
+0
+k is  0
+good
+restart
+Fri 03 Dec 2021 02:37:07 AM CST
+INFO  Validating config
+FATAL Port 80 has been used. Try other port instead.
+FATAL {
+  err: Error: listen EADDRINUSE: address already in use :::80
+      at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+      at listenInCluster (net.js:1364:12)
+      at Server.listen (net.js:1450:7)
+      at /root/MYBLOG/node_modules/hexo-server/lib/server.js:69:12
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at checkPort (/root/MYBLOG/node_modules/hexo-server/lib/server.js:66:10)
+      at Hexo.module.exports (/root/MYBLOG/node_modules/hexo-server/lib/server.js:18:10)
+      at Hexo.tryCatcher (/root/MYBLOG/node_modules/bluebird/js/release/util.js:16:23)
+      at Hexo.<anonymous> (/root/MYBLOG/node_modules/bluebird/js/release/method.js:15:34)
+      at /root/MYBLOG/node_modules/hexo/lib/hexo/index.js:260:17
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at Hexo.call (/root/MYBLOG/node_modules/hexo/lib/hexo/index.js:256:12)
+      at /usr/local/lib/node_modules/hexo-cli/lib/hexo.js:60:17
+      at tryCatcher (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)
+      at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:547:31)
+      at Promise._settlePromise (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:604:18)
+      at Promise._settlePromise0 (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:649:10)
+      at Promise._settlePromises (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:729:18) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 80
+  }
+} Something's wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html
+0
+k is  0
+good
+ERROR Theme config load failed.
+ERROR {
+  err: YAMLException: bad indentation of a mapping entry (59:3)
+  
+   56 |   #since: 2015
+   57 | 
+   58 |   # Icon between year and copyrig ...
+   59 |   icon:
+  --------^
+   60 |     # Icon name in Font Awesome.  ...
+   61 |     name: fa fa-heart
+      at generateError (/root/MYBLOG/node_modules/js-yaml/lib/loader.js:183:10)
+      at throwError (/root/MYBLOG/node_modules/js-yaml/lib/loader.js:187:9)
+      at readBlockMapping (/root/MYBLOG/node_modules/js-yaml/lib/loader.js:1182:7)
+      at composeNode (/root/MYBLOG/node_modules/js-yaml/lib/loader.js:1441:12)
+      at readDocument (/root/MYBLOG/node_modules/js-yaml/lib/loader.js:1625:3)
+      at loadDocuments (/root/MYBLOG/node_modules/js-yaml/lib/loader.js:1688:5)
+      at Object.load (/root/MYBLOG/node_modules/js-yaml/lib/loader.js:1714:19)
+      at Hexo.yamlHelper (/root/MYBLOG/node_modules/hexo/lib/plugins/renderer/yaml.js:7:15)
+      at Hexo.tryCatcher (/root/MYBLOG/node_modules/bluebird/js/release/util.js:16:23)
+      at Hexo.<anonymous> (/root/MYBLOG/node_modules/bluebird/js/release/method.js:15:34)
+      at /root/MYBLOG/node_modules/hexo/lib/hexo/render.js:75:22
+      at tryCatcher (/root/MYBLOG/node_modules/bluebird/js/release/util.js:16:23)
+      at Promise._settlePromiseFromHandler (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:547:31)
+      at Promise._settlePromise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:604:18)
+      at Promise._settlePromise0 (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:649:10)
+      at Promise._settlePromises (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:729:18)
+      at _drainQueueStep (/root/MYBLOG/node_modules/bluebird/js/release/async.js:93:12)
+      at _drainQueue (/root/MYBLOG/node_modules/bluebird/js/release/async.js:86:9)
+      at Async._drainQueues (/root/MYBLOG/node_modules/bluebird/js/release/async.js:102:5)
+      at Immediate.Async.drainQueues [as _onImmediate] (/root/MYBLOG/node_modules/bluebird/js/release/async.js:15:14)
+      at processImmediate (internal/timers.js:461:21) {
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# ---------------------------------------------------------------\n' +
+        '# Theme Core Configuration Settings\n' +
+        '# See: https://theme-next.org/docs/theme-settings/\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# If false, merge configs from `_data/next.yml` into default configuration (rewrite).\n' +
+        '# If true, will fully override default configuration by options from `_data/next.yml` (override). Only for NexT settings.\n' +
+        '# And if true, all config from default NexT `_config.yml` have to be copied into `next.yml`. Use if you know what you are doing.\n' +
+        '# Useful if you want to comment some options from NexT `_config.yml` by `next.yml` without editing default config.\n' +
+        'override: false\n' +
+        '\n' +
+        '# Console reminder if new version released.\n' +
+        'reminder: false\n' +
+        '\n' +
+        '# Allow to cache content generation. Introduced in NexT v6.0.0.\n' +
+        'cache:\n' +
+        '  enable: true\n' +
+        '\n' +
+        '# Remove unnecessary files after hexo generate.\n' +
+        'minify: false\n' +
+        '\n' +
+        '# Define custom file paths.\n' +
+        '# Create your custom files in site directory `source/_data` and uncomment needed files below.\n' +
+        'custom_file_path:\n' +
+        '  #head: source/_data/head.swig\n' +
+        '  #header: source/_data/header.swig\n' +
+        '  #sidebar: source/_data/sidebar.swig\n' +
+        '  #postMeta: source/_data/post-meta.swig\n' +
+        '  #postBodyEnd: source/_data/post-body-end.swig\n' +
+        '  #footer: source/_data/footer.swig\n' +
+        '  #bodyEnd: source/_data/body-end.swig\n' +
+        '  #variable: source/_data/variables.styl\n' +
+        '  #mixin: source/_data/mixins.styl\n' +
+        '  #style: source/_data/styles.styl\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Site Information Settings\n' +
+        '# See: https://theme-next.org/docs/getting-started/\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        'favicon:\n' +
+        '  small: /images/favicon-16x16-next.png\n' +
+        '  medium: /images/favicon-32x32-next.png\n' +
+        '  apple_touch_icon: /images/apple-touch-icon-next.png\n' +
+        '  safari_pinned_tab: /images/logo.svg\n' +
+        '  #android_manifest: /images/manifest.json\n' +
+        '  #ms_browserconfig: /images/browserconfig.xml\n' +
+        '\n' +
+        '# Show multilingual switcher in footer.\n' +
+        'language_switcher: false\n' +
+        '\n' +
+        'footer:\n' +
+        '    counter: true\n' +
+        '  # Specify the date when the site was setup. If not defined, current year will be used.\n' +
+        '  #since: 2015\n' +
+        '\n' +
+        '  # Icon between year and copyright info.\n' +
+        '  icon:\n' +
+        '    # Icon name in Font Awesome. See: https://fontawesome.com/icons\n' +
+        '    name: fa fa-heart\n' +
+        '    # If you want to animate the icon, set it to true.\n' +
+        '    animated: false\n' +
+        '    # Change the color of icon, using Hex Code.\n' +
+        '    color: "#ff0000"\n' +
+        '\n' +
+        '  # If not defined, `author` from Hexo `_config.yml` will be used.\n' +
+        '  copyright:\n' +
+        '\n' +
+        '  # Powered by Hexo & NexT\n' +
+        '  powered: true\n' +
+        '\n' +
+        '  # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn\n' +
+        '  beian:\n' +
+        '    enable: false\n' +
+        '    icp:\n' +
+        '    # The digit in the num of gongan beian.\n' +
+        '    gongan_id:\n' +
+        '    # The full num of gongan beian.\n' +
+        '    gongan_num:\n' +
+        '    # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download\n' +
+        '    gongan_icon_url:\n' +
+        '\n' +
+        '# Creative Commons 4.0 International License.\n' +
+        '# See: https://creativecommons.org/share-your-work/licensing-types-examples\n' +
+        '# Available values of license: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero\n' +
+        '# You can set a language value if you prefer a translated version of CC license, e.g. deed.zh\n' +
+        '# CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org\n' +
+        'creative_commons:\n' +
+        '  license: by-nc-sa\n' +
+        '  sidebar: false\n' +
+        '  post: false\n' +
+        '  language:\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Scheme Settings\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Schemes\n' +
+        '#scheme: Muse\n' +
+        '#scheme: Mist\n' +
+        '#scheme: Pisces\n' +
+        'scheme: Gemini\n' +
+        '\n' +
+        '# Dark Mode\n' +
+        'darkmode: true\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Menu Settings\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Usage: `Key: /link/ || icon`\n' +
+        '# Key is the name of menu item. If the translation for this item is available, the translated text will be loaded, otherwise the Key name will be used. Key is case-senstive.\n' +
+        '# Value before `||` delimiter is the target link, value after `||` delimiter is the name of Font Awesome icon.\n' +
+        '# When running the site in a subdirectory (e.g. yoursite.com/blog), remove the leading slash from link value (/archives -> archives).\n' +
+        '# External url should start with http:// or https://\n' +
+        'menu:\n' +
+        '  home: / || fa fa-home\n' +
+        '  #about: /about/ || fa fa-user\n' +
+        '  #tags: /tags/ || fa fa-tags\n' +
+        '  #categories: /categories/ || fa fa-th\n' +
+        '  archives: /archives/ || fa fa-archive\n' +
+        '  #schedule: /schedule/ || fa fa-calendar\n' +
+        '  #sitemap: /sitemap.xml || fa fa-sitemap\n' +
+        '  #commonweal: /404/ || fa fa-heartbeat\n' +
+        '\n' +
+        '# Enable / Disable menu icons / item badges.\n' +
+        'menu_settings:\n' +
+        '  icons: true\n' +
+        '  badges: false\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Sidebar Settings\n' +
+        '# See: https://theme-next.org/docs/theme-settings/sidebar\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        'sidebar:\n' +
+        '  # Sidebar Position.\n' +
+        '  position: left\n' +
+        '  #position: right\n' +
+        '\n' +
+        '  # Manual define the sidebar width. If commented, will be default for:\n' +
+        '  # Muse | Mist: 320\n' +
+        '  # Pisces | Gemini: 240\n' +
+        '  #width: 300\n' +
+        '\n' +
+        '  # Sidebar Display (only for Muse | Mist), available values:\n' +
+        '  #  - post    expand on posts automatically. Default.\n' +
+        '  #  - always  expand for all pages automatically.\n' +
+        '  #  - hide    expand only when click on the sidebar toggle icon.\n' +
+        '  #  - remove  totally remove sidebar including sidebar toggle.\n' +
+        '  display: post\n' +
+        '\n' +
+        '  # Sidebar padding in pixels.\n' +
+        '  padding: 18\n' +
+        '  # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).\n' +
+        '  offset: 12\n' +
+        '  # Enable sidebar on narrow view (only for Muse | Mist).\n' +
+        '  onmobile: false\n' +
+        '\n' +
+        '# Sidebar Avatar\n' +
+        'avatar:\n' +
+        '  # Replace the default image and set the url here.\n' +
+        '  url: #/images/avatar.gif\n' +
+        '  # If true, the avatar will be dispalyed in circle.\n' +
+        '  rounded: false\n' +
+        '  # If true, the avatar will be rotated with the cursor.\n' +
+        '  rotated: false\n' +
+        '\n' +
+        '# Posts / Categories / Tags in sidebar.\n' +
+        'site_state: true\n' +
+        '\n' +
+        '# Social Links\n' +
+        '# Usage: `Key: permalink || icon`\n' +
+        '# Key is the link label showing to end users.\n' +
+        '# Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.\n' +
+        'social:\n' +
+        '  #GitHub: https://github.com/yourname || fab fa-github\n' +
+        '  #E-Mail: mailto:yourname@gmail.com || fa fa-envelope\n' +
+        '  #Weibo: https://weibo.com/yourname || fab fa-weibo\n' +
+        '  #Google: https://plus.google.com/yourname || fab fa-google\n' +
+        '  #Twitter: https://twitter.com/yourname || fab fa-twitter\n' +
+        '  #FB Page: https://www.facebook.com/yourname || fab fa-facebook\n' +
+        '  #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow\n' +
+        '  #YouTube: https://youtube.com/yourname || fab fa-youtube\n' +
+        '  #Instagram: https://instagram.com/yourname || fab fa-instagram\n' +
+        '  #Skype: skype:yourname?call|chat || fab fa-skype\n' +
+        '\n' +
+        'social_icons:\n' +
+        '  enable: true\n' +
+        '  icons_only: false\n' +
+        '  transition: false\n' +
+        '\n' +
+        '# Blog rolls\n' +
+        'links_settings:\n' +
+        '  icon: fa fa-link\n' +
+        '  title: Links\n' +
+        '  # Available values: block | inline\n' +
+        '  layout: block\n' +
+        '\n' +
+        'links:\n' +
+        '  #Title: http://yoursite.com\n' +
+        '\n' +
+        '# Table of Contents in the Sidebar\n' +
+        '# Front-matter variable (unsupport wrap expand_all).\n' +
+        'toc:\n' +
+        '  enable: true\n' +
+        '  # Automatically add list number to toc.\n' +
+        '  number: true\n' +
+        '  # If true, all words will placed on next lines if header width longer then sidebar width.\n' +
+        '  wrap: false\n' +
+        '  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.\n' +
+        '  expand_all: false\n' +
+        '  # Maximum heading depth of generated toc.\n' +
+        '  max_depth: 6\n' +
+        '\n' +
+        '# A button to open designated chat widget in sidebar.\n' +
+        '# Firstly, you need enable the chat service you want to activate its sidebar button.\n' +
+        'chat:\n' +
+        '  enable: false\n' +
+        '  #service: chatra\n' +
+        '  #service: tidio\n' +
+        '  icon: fa fa-comment # Icon name in Font Awesome, set false to disable icon.\n' +
+        '  text: Chat # Button text, change it as you wish.\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Post Settings\n' +
+        '# See: https://theme-next.org/docs/theme-settings/posts\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Automatically excerpt description in homepage as preamble text.\n' +
+        'excerpt_description: true\n' +
+        '\n' +
+        '# Read more button\n' +
+        '# If true, the read more button will be displayed in excerpt section.\n' +
+        'read_more_btn: true\n' +
+        '\n' +
+        '# Post meta display settings\n' +
+        'post_meta:\n' +
+        '  item_text: true\n' +
+        '  created_at: true\n' +
+        '  updated_at:\n' +
+        '    enable: true\n' +
+        '    another_day: true\n' +
+        '  categories: true\n' +
+        '\n' +
+        '# Post wordcount display settings\n' +
+        '# Dependencies: https://github.com/theme-next/hexo-symbols-count-time\n' +
+        'symbols_count_time:\n' +
+        '  separated_meta: true\n' +
+        '  item_text_post: true\n' +
+        '  item_text_total: false\n' +
+        '\n' +
+        '# Use icon instead of the symbol # to indicate the tag at the bottom of the post\n' +
+        'tag_icon: false\n' +
+        '\n' +
+        '# Reward (Donate)\n' +
+        '# Front-matter variable (unsupport animation).\n' +
+        'reward_settings:\n' +
+        '  # If true, reward will be displayed in every article by default.\n' +
+        '  enable: false\n' +
+        '  animation: false\n' +
+        '  #comment: Donate comment here.\n' +
+        '\n' +
+        'reward:\n' +
+        '  #wechatpay: /images/wechatpay.png\n' +
+        '  #alipay: /images/alipay.png\n' +
+        '  #paypal: /images/paypal.png\n' +
+        '  #bitcoin: /images/bitcoin.png\n' +
+        '\n' +
+        '# Subscribe through Telegram Channel, Twitter, etc.\n' +
+        '# Usage: `Key: permalink || icon` (Font Awesome)\n' +
+        'follow_me:\n' +
+        '  #Twitter: https://twitter.com/username || fab fa-twitter\n' +
+        '  #Telegram: https://t.me/channel_name || fab fa-telegram\n' +
+        '  #WeChat: /images/wechat_channel.jpg || fab fa-weixin\n' +
+        '  #RSS: /atom.xml || fa fa-rss\n' +
+        '\n' +
+        '# Related popular posts\n' +
+        '# Dependencies: https://github.com/tea3/hexo-related-popular-posts\n' +
+        'related_posts:\n' +
+        '  enable: false\n' +
+        '  title: # Custom header, leave empty to use the default one\n' +
+        '  display_in_home: false\n' +
+        '  params:\n' +
+        '    maxCount: 5\n' +
+        '    #PPMixingRate: 0.0\n' +
+        '    #isDate: false\n' +
+        '    #isImage: false\n' +
+        '    #isExcerpt: false\n' +
+        '\n' +
+        '# Post edit\n' +
+        '# Dependencies: https://github.com/hexojs/hexo-deployer-git\n' +
+        'post_edit:\n' +
+        '  enable: false\n' +
+        '  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source\n' +
+        '  #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit\n' +
+        '\n' +
+        '# Show previous post and next post in post footer if exists\n' +
+        '# Available values: left | right | false\n' +
+        'post_navigation: left\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Custom Page Settings\n' +
+        '# See: https://theme-next.org/docs/theme-settings/custom-pages\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# TagCloud settings for tags page.\n' +
+        'tagcloud:\n' +
+        '  # All values below are same as default, change them by yourself.\n' +
+        '  min: 12 # Minimun font size in px\n' +
+        '  max: 30 # Maxium font size in px\n' +
+        '  start: "#ccc" # Start color (hex, rgba, hsla or color keywords)\n' +
+        '  end: "#111" # End color (hex, rgba, hsla or color keywords)\n' +
+        '  amount: 200 # Amount of tags, change it if you have more than 200 tags\n' +
+        '\n' +
+        '# Google Calendar\n' +
+        '# Share your recent schedule to others via calendar page.\n' +
+        'calendar:\n' +
+        '  calendar_id: <required> # Your Google account E-Mail\n' +
+        '  api_key: <required>\n' +
+        '  orderBy: startTime\n' +
+        '  offsetMax: 24 # Time Range\n' +
+        '  offsetMin: 4 # Time Range\n' +
+        '  showDeleted: false\n' +
+        '  singleEvents: true\n' +
+        '  maxResults: 250\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Misc Theme Settings\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Set the text alignment in posts / pages.\n' +
+        'text_align:\n' +
+        '  # Available values: start | end | left | right | center | justify | justify-all | match-parent\n' +
+        '  desktop: justify\n' +
+        '  mobile: justify\n' +
+        '\n' +
+        '# Reduce padding / margin indents on devices with narrow width.\n' +
+        'mobile_layout_economy: false\n' +
+        '\n' +
+        '# Android Chrome header panel color ($brand-bg / $headband-bg => $black-deep).\n' +
+        'android_chrome_color: "#222"\n' +
+        '\n' +
+        '# Custom Logo (Do not support scheme Mist)\n' +
+        'custom_logo: #/uploads/custom-logo.jpg\n' +
+        '\n' +
+        'codeblock:\n' +
+        '  # Code Highlight theme\n' +
+        '  # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic\n' +
+        '  # See: https://github.com/chriskempson/tomorrow-theme\n' +
+        '  highlight_theme: normal\n' +
+        '  # Add copy button on codeblock\n' +
+        '  copy_button:\n' +
+        '    enable: false\n' +
+        '    # Show text copy result.\n' +
+        '    show_result: false\n' +
+        '    # Available values: default | flat | mac\n' +
+        '    style:\n' +
+        '\n' +
+        'back2top:\n' +
+        '  enable: true\n' +
+        '  # Back to top in sidebar.\n' +
+        '  sidebar: false\n' +
+        '  # Scroll percent label in b2t button.\n' +
+        '  scrollpercent: false\n' +
+        '\n' +
+        '# Reading progress bar\n' +
+        'reading_progress:\n' +
+        '  enable: false\n' +
+        '  # Available values: top | bottom\n' +
+        '  position: top\n' +
+        '  color: "#37c6c0"\n' +
+        '  height: 3px\n' +
+        '\n' +
+        '# Bookmark Support\n' +
+        'bookmark:\n' +
+        '  enable: false\n' +
+        '  # Customize the color of the bookmark.\n' +
+        '  color: "#222"\n' +
+        '  # If auto, save the reading progress when closing the page or clicking the bookmark-icon.\n' +
+        '  # If manual, only save it by clicking the bookmark-icon.\n' +
+        '  save: auto\n' +
+        '\n' +
+        '# `Follow me on GitHub` banner in the top-right corner.\n' +
+        'github_banner:\n' +
+        '  enable: false\n' +
+        '  permalink: https://github.com/yourname\n' +
+        '  title: Follow me on GitHub\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Font Settings\n' +
+        '# See: https://theme-next.org/docs/theme-settings/#Fonts-Customization\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Find fonts on Google Fonts (https://www.google.com/fonts)\n' +
+        '# All fonts set here will have the following styles:\n' +
+        '#   light | light italic | normal | normal italic | bold | bold italic\n' +
+        '# Be aware that setting too much fonts will cause site running slowly\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# To avoid space between header and sidebar in scheme Pisces / Gemini, Web Safe fonts are recommended for `global` (and `title`):\n' +
+        '# Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        'font:\n' +
+        '  enable: false\n' +
+        '\n' +
+        '  # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).\n' +
+        '  host:\n' +
+        '\n' +
+        '  # Font options:\n' +
+        '  # `external: true` will load this font family from `host` above.\n' +
+        '  # `family: Times New Roman`. Without any quotes.\n' +
+        '  # `size: x.x`. Use `em` as unit. Default: 1 (16px)\n' +
+        '\n' +
+        '  # Global font settings used for all elements inside <body>.\n' +
+        '  global:\n' +
+        '    external: true\n' +
+        '    family: Lato\n' +
+        '    size:\n' +
+        '\n' +
+        '  # Font settings for site title (.site-title).\n' +
+        '  title:\n' +
+        '    external: true\n' +
+        '    family:\n' +
+        '    size:\n' +
+        '\n' +
+        '  # Font settings for headlines (<h1> to <h6>).\n' +
+        '  headings:\n' +
+        '    external: true\n' +
+        '    family:\n' +
+        '    size:\n' +
+        '\n' +
+        '  # Font settings for posts (.post-body).\n' +
+        '  posts:\n' +
+        '    external: true\n' +
+        '    family:\n' +
+        '\n' +
+        '  # Font settings for <code> and code blocks.\n' +
+        '  codes:\n' +
+        '    external: true\n' +
+        '    family:\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# SEO Settings\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Disable Baidu transformation on mobile devices.\n' +
+        'disable_baidu_transformation: false\n' +
+        '\n' +
+        '# If true, site-subtitle will be added to index page.\n' +
+        '# Remember to set up your site-subtitle in Hexo `_config.yml` (e.g. subtitle: Subtitle)\n' +
+        'index_with_subtitle: false\n' +
+        '\n' +
+        '# Automatically add external URL with Base64 encrypt & decrypt.\n' +
+        'exturl: false\n' +
+        '\n' +
+        '# Google Webmaster tools verification.\n' +
+        '# See: https://www.google.com/webmasters\n' +
+        'google_site_verification:\n' +
+        '\n' +
+        '# Bing Webmaster tools verification.\n' +
+        '# See: https://www.bing.com/webmaster\n' +
+        'bing_site_verification:\n' +
+        '\n' +
+        '# Yandex Webmaster tools verification.\n' +
+        '# See: https://webmaster.yandex.ru\n' +
+        'yandex_site_verification:\n' +
+        '\n' +
+        '# Baidu Webmaster tools verification.\n' +
+        '# See: https://ziyuan.baidu.com/site\n' +
+        'baidu_site_verification:\n' +
+        '\n' +
+        '# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.\n' +
+        'baidu_push: false\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Third Party Plugins & Services Settings\n' +
+        '# See: https://theme-next.org/docs/third-party-services/\n' +
+        '# More plugins: https://github.com/theme-next/awesome-next\n' +
+        '# You may need to install dependencies or set CDN URLs in `vendors`\n' +
+        '# There are two different CDN providers by default:\n' +
+        '#   - jsDelivr (cdn.jsdelivr.net), works everywhere even in China\n' +
+        '#   - CDNJS (cdnjs.cloudflare.com), provided by cloudflare\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Math Formulas Render Support\n' +
+        'math:\n' +
+        '  # Default (true) will load mathjax / katex script on demand.\n' +
+        '  # That is it only render those page which has `mathjax: true` in Front-matter.\n' +
+        '  # If you set it to false, it will load mathjax / katex srcipt EVERY PAGE.\n' +
+        '  per_page: true\n' +
+        '\n' +
+        '  # hexo-renderer-pandoc (or hexo-renderer-kramed) required for full MathJax support.\n' +
+        '  mathjax:\n' +
+        '    enable: false\n' +
+        '    # See: https://mhchem.github.io/MathJax-mhchem/\n' +
+        '    mhchem: false\n' +
+        '\n' +
+        '  # hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin) required for full Katex support.\n' +
+        '  katex:\n' +
+        '    enable: false\n' +
+        '    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex\n' +
+        '    copy_tex: false\n' +
+        '\n' +
+        '# Easily enable fast Ajax navigation on your website.\n' +
+        '# Dependencies: https://github.com/theme-next/theme-next-pjax\n' +
+        'pjax: false\n' +
+        '\n' +
+        '# FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.\n' +
+        '# For more information: https://fancyapps.com/fancybox\n' +
+        'fancybox: false\n' +
+        '\n' +
+        '# A JavaScript library for zooming images like Medium.\n' +
+        '# Do not enable both `fancybox` and `mediumzoom`.\n' +
+        '# For more information: https://github.com/francoischalifour/medium-zoom\n' +
+        'mediumzoom: false\n' +
+        '\n' +
+        '# Vanilla JavaScript plugin for lazyloading images.\n' +
+        '# For more information: https://github.com/ApoorvSaxena/lozad.js\n' +
+        'lazyload: false\n' +
+        '\n' +
+        '# Pangu Support\n' +
+        '# For more information: https://github.com/vinta/pangu.js\n' +
+        'pangu: false\n' +
+        '\n' +
+        '# Quicklink Support\n' +
+        '# Do not enable both `pjax` and `quicklink`.\n' +
+        '# For more information: https://github.com/GoogleChromeLabs/quicklink\n' +
+        '# Front-matter (unsupport home archive).\n' +
+        'quicklink:\n' +
+        '  enable: false\n' +
+        '\n' +
+        '  # Home page and archive page can be controlled through home and archive options below.\n' +
+        '  # This configuration item is independent of `enable`.\n' +
+        '  home: false\n' +
+        '  archive: false\n' +
+        '\n' +
+        '  # Default (true) will initialize quicklink after the load event fires.\n' +
+        '  delay: true\n' +
+        '  # Custom a time in milliseconds by which the browser must execute prefetching.\n' +
+        '  timeout: 3000\n' +
+        '  # Default (true) will enable fetch() or falls back to XHR.\n' +
+        '  priority: true\n' +
+        '\n' +
+        '  # For more flexibility you can add some patterns (RegExp, Function, or Array) to ignores.\n' +
+        '  # See: https://github.com/GoogleChromeLabs/quicklink#custom-ignore-patterns\n' +
+        '  ignores:\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Comments Settings\n' +
+        '# See: https://theme-next.org/docs/third-party-services/comments\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Multiple Comment System Support\n' +
+        'comments:\n' +
+        '  # Available values: tabs | buttons\n' +
+        '  style: tabs\n' +
+        '  # Choose a comment system to be displayed by default.\n' +
+        '  # Available values: changyan | disqus | disqusjs | gitalk | livere | valine\n' +
+        '  active:\n' +
+        '  # Setting `true` means remembering the comment system selected by the visitor.\n' +
+        '  storage: true\n' +
+        '  # Lazyload all comment systems.\n' +
+        '  lazyload: false\n' +
+        '  # Modify texts or order for any navs, here are some examples.\n' +
+        '  nav:\n' +
+        '    #disqus:\n' +
+        '    #  text: Load Disqus\n' +
+        '    #  order: -1\n' +
+        '    #gitalk:\n' +
+        '    #  order: -2\n' +
+        '\n' +
+        '# Disqus\n' +
+        'disqus:\n' +
+        '  enable: false\n' +
+        '  shortname:\n' +
+        '  count: true\n' +
+        '  #post_meta_order: 0\n' +
+        '\n' +
+        '# DisqusJS\n' +
+        '# Alternative Disqus - Render comment component using Disqus API.\n' +
+        '# Demo: https://suka.js.org/DisqusJS/\n' +
+        '# For more information: https://github.com/SukkaW/DisqusJS\n' +
+        'disqusjs:\n' +
+        '  enable: false\n' +
+        '  # API Endpoint of Disqus API (https://disqus.com/api/).\n' +
+        '  # Leave api empty if you are able to connect to Disqus API. Otherwise you need a reverse proxy for it.\n' +
+        '  # For example:\n' +
+        '  # api: https://disqus.skk.moe/disqus/\n' +
+        '  api:\n' +
+        '  apikey: # Register new application from https://disqus.com/api/applications/\n' +
+        '  shortname: # See: https://disqus.com/admin/settings/general/\n' +
+        '\n' +
+        '# Changyan\n' +
+        'changyan:\n' +
+        '  enable: false\n' +
+        '  appid:\n' +
+        '  appkey:\n' +
+        '  #post_meta_order: 0\n' +
+        '\n' +
+        '# Valine\n' +
+        '# For more information: https://valine.js.org, https://github.com/xCss/Valine\n' +
+        'valine:\n' +
+        '  enable: false\n' +
+        '  appid: # Your leancloud application appid\n' +
+        '  appkey: # Your leancloud application appkey\n' +
+        '  notify: false # Mail notifier\n' +
+        '  verify: false # Verification code\n' +
+        '  placeholder: Just go go # Comment box placeholder\n' +
+        '  avatar: mm # Gravatar style\n' +
+        '  guest_info: nick,mail,link # Custom comment header\n' +
+        '  pageSize: 10 # Pagination size\n' +
+        '  language: # Language, available values: en, zh-cn\n' +
+        '  visitor: false # Article reading statistic\n' +
+        '  comment_count: true # If false, comment count will only be displayed in post page, not in home page\n' +
+        '  recordIP: false # Whether to record the commenter IP\n' +
+        '  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)\n' +
+        '  #post_meta_order: 0\n' +
+        '\n' +
+        '# LiveRe comments system\n' +
+        '# You can get your uid from https://livere.com/insight/myCode (General web site)\n' +
+        'livere_uid: # <your_uid>\n' +
+        '\n' +
+        '# Gitalk\n' +
+        '# For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk\n' +
+        'gitalk:\n' +
+        '  enable: false\n' +
+        '  github_id: # GitHub repo owner\n' +
+        '  repo: # Repository name to store issues\n' +
+        '  client_id: # GitHub Application Client ID\n' +
+        '  client_secret: # GitHub Application Client Secret\n' +
+        '  admin_user: # GitHub repo owner and collaborators, only these guys can initialize gitHub issues\n' +
+        '  distraction_free_mode: true # Facebook-like distraction free mode\n' +
+        "  # Gitalk's display language depends on user's browser or system environment\n" +
+        '  # If you want everyone visiting your site to see a uniform language, you can set a force language value\n' +
+        '  # Available values: en | es-ES | fr | ru | zh-CN | zh-TW\n' +
+        '  language:\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Post Widgets & Content Sharing Services\n' +
+        '# See: https://theme-next.org/docs/third-party-services/post-widgets\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Star rating support to each article.\n' +
+        '# To get your ID visit https://widgetpack.com\n' +
+        'rating:\n' +
+        '  enable: false\n' +
+        '  id:     # <app_id>\n' +
+        '  color:  fc6423\n' +
+        '\n' +
+        '# AddThis Share. See: https://www.addthis.com\n' +
+        '# Go to https://www.addthis.com/dashboard to customize your tools.\n' +
+        'add_this_id:\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Statistics and Analytics\n' +
+        '# See: https://theme-next.org/docs/third-party-services/statistics-and-analytics\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Google Analytics\n' +
+        'google_analytics:\n' +
+        '  tracking_id: # <app_id>\n' +
+        '  # By default, NexT will load an external gtag.js script on your site.\n' +
+        '  # If you only need the pageview feature, set the following option to true to get a better performance.\n' +
+        '  only_pageview: false\n' +
+        '\n' +
+        '# Baidu Analytics\n' +
+        'baidu_analytics: # <app_id>\n' +
+        '\n' +
+        '# Growingio Analytics\n' +
+        'growingio_analytics: # <project_id>\n' +
+        '\n' +
+        '# CNZZ count\n' +
+        'cnzz_siteid:\n' +
+        '\n' +
+        '# Show number of visitors of each article.\n' +
+        '# You can visit https://leancloud.cn to get AppID and AppKey.\n' +
+        "# AppID and AppKey are recommended to be the same as valine's for counter compatibility.\n" +
+        '# Do not enable both `valine.visitor` and `leancloud_visitors`.\n' +
+        'leancloud_visitors:\n' +
+        '  enable: false\n' +
+        '  app_id: # <your app id>\n' +
+        '  app_key: # <your app key>\n' +
+        '  # Required for apps from CN region\n' +
+        '  server_url: # <your server url>\n' +
+        '  # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security\n' +
+        "  # If you don't care about security in leancloud counter and just want to use it directly\n" +
+        '  # (without hexo-leancloud-counter-security plugin), set `security` to `false`.\n' +
+        '  security: true\n' +
+        '\n' +
+        '# Another tool to show number of visitors to each article.\n' +
+        '# Visit https://console.firebase.google.com/u/0/ to get apiKey and projectId.\n' +
+        '# Visit https://firebase.google.com/docs/firestore/ to get more information about firestore.\n' +
+        'firestore:\n' +
+        '  enable: false\n' +
+        '  collection: articles # Required, a string collection name to access firestore database\n' +
+        '  apiKey: # Required\n' +
+        '  projectId: # Required\n' +
+        '\n' +
+        '# Show Views / Visitors of the website / page with busuanzi.\n' +
+        '# Get more information on http://ibruce.info/2015/04/04/busuanzi\n' +
+        'busuanzi_count:\n' +
+        '  enable: true\n' +
+        '  total_visitors: true\n' +
+        '  total_visitors_icon: fa fa-user\n' +
+        '  total_views: true\n' +
+        '  total_views_icon: fa fa-eye\n' +
+        '  post_views: true\n' +
+        '  post_views_icon: fa fa-eye\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Search Services\n' +
+        '# See: https://theme-next.org/docs/third-party-services/search-services\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Algolia Search\n' +
+        '# For more information: https://www.algolia.com\n' +
+        'algolia_search:\n' +
+        '  enable: false\n' +
+        '  hits:\n' +
+        '    per_page: 10\n' +
+        '  labels:\n' +
+        '    input_placeholder: Search for Posts\n' +
+        '    hits_empty: "We didn\'t find any results for the search: ${query}"\n' +
+        '    hits_stats: "${hits} results found in ${time} ms"\n' +
+        '\n' +
+        '# Local Search\n' +
+        '# Dependencies: https://github.com/theme-next/hexo-generator-searchdb\n' +
+        'local_search:\n' +
+        '  enable: false\n' +
+        '  # If auto, trigger search by changing input.\n' +
+        '  # If manual, trigger search by pressing enter key or search button.\n' +
+        '  trigger: auto\n' +
+        '  # Show top n results per article, show all results by setting to -1\n' +
+        '  top_n_per_article: 1\n' +
+        '  # Unescape html strings to the readable one.\n' +
+        '  unescape: false\n' +
+        '  # Preload the search data when the page loads.\n' +
+        '  preload: false\n' +
+        '\n' +
+        '# Swiftype Search API Key\n' +
+        'swiftype_key:\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Chat Services\n' +
+        '# See: https://theme-next.org/docs/third-party-services/chat-services\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Chatra Support\n' +
+        '# See: https://chatra.io\n' +
+        '# Dashboard: https://app.chatra.io/settings/general\n' +
+        'chatra:\n' +
+        '  enable: false\n' +
+        '  async: true\n' +
+        '  id: # Visit Dashboard to get your ChatraID\n' +
+        '  #embed: # Unfinished experimental feature for developers. See: https://chatra.io/help/api/#injectto\n' +
+        '\n' +
+        '# Tidio Support\n' +
+        '# See: https://www.tidiochat.com\n' +
+        '# Dashboard: https://www.tidiochat.com/panel/dashboard\n' +
+        'tidio:\n' +
+        '  enable: false\n' +
+        '  key: # Public Key, get it from dashboard. See: https://www.tidiochat.com/panel/settings/developer\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Tags Settings\n' +
+        '# See: https://theme-next.org/docs/tag-plugins/\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Note tag (bs-callout)\n' +
+        'note:\n' +
+        '  # Note tag style values:\n' +
+        '  #  - simple    bs-callout old alert style. Default.\n' +
+        '  #  - modern    bs-callout new (v2-v3) alert style.\n' +
+        '  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.\n' +
+        '  #  - disabled  disable all CSS styles import of note tag.\n' +
+        '  style: simple\n' +
+        '  icons: false\n' +
+        '  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).\n' +
+        '  # Offset also applied to label tag variables. This option can work with disabled note tag.\n' +
+        '  light_bg_offset: 0\n' +
+        '\n' +
+        '# Tabs tag\n' +
+        'tabs:\n' +
+        '  transition:\n' +
+        '    tabs: false\n' +
+        '    labels: true\n' +
+        '\n' +
+        '# PDF tag\n' +
+        '# NexT will try to load pdf files natively, if failed, pdf.js will be used.\n' +
+        '# So, you have to install the dependency of pdf.js if you want to use pdf tag and make it available to all browsers.\n' +
+        '# See: https://github.com/theme-next/theme-next-pdf\n' +
+        'pdf:\n' +
+        '  enable: false\n' +
+        '  # Default height\n' +
+        '  height: 500px\n' +
+        '\n' +
+        '# Mermaid tag\n' +
+        'mermaid:\n' +
+        '  enable: false\n' +
+        '  # Available themes: default | dark | forest | neutral\n' +
+        '  theme: forest\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Animation Settings\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Use velocity to animate everything.\n' +
+        '# For more information: http://velocityjs.org\n' +
+        'motion:\n' +
+        '  enable: true\n' +
+        '  async: false\n' +
+        '  transition:\n' +
+        '    # Transition variants:\n' +
+        '    # fadeIn | flipXIn | flipYIn | flipBounceXIn | flipBounceYIn\n' +
+        '    # swoopIn | whirlIn | shrinkIn | expandIn\n' +
+        '    # bounceIn | bounceUpIn | bounceDownIn | bounceLeftIn | bounceRightIn\n' +
+        '    # slideUpIn | slideDownIn | slideLeftIn | slideRightIn\n' +
+        '    # slideUpBigIn | slideDownBigIn | slideLeftBigIn | slideRightBigIn\n' +
+        '    # perspectiveUpIn | perspectiveDownIn | perspectiveLeftIn | perspectiveRightIn\n' +
+        '    post_block: fadeIn\n' +
+        '    post_header: slideDownIn\n' +
+        '    post_body: slideDownIn\n' +
+        '    coll_header: slideLeftIn\n' +
+        '    # Only for Pisces | Gemini.\n' +
+        '    sidebar: slideUpIn\n' +
+        '\n' +
+        '# Progress bar in the top during page loading.\n' +
+        '# Dependencies: https://github.com/theme-next/theme-next-pace\n' +
+        '# For more information: https://github.com/HubSpot/pace\n' +
+        'pace:\n' +
+        '  enable: false\n' +
+        '  # Themes list:\n' +
+        '  # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple\n' +
+        '  # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal\n' +
+        '  theme: minimal\n' +
+        '\n' +
+        '# JavaScript 3D library.\n' +
+        '# Dependencies: https://github.com/theme-next/theme-next-three\n' +
+        'three:\n' +
+        '  enable: false\n' +
+        '  three_waves: false\n' +
+        '  canvas_lines: false\n' +
+        '  canvas_sphere: false\n' +
+        '\n' +
+        '# Canvas-ribbon\n' +
+        '# Dependencies: https://github.com/theme-next/theme-next-canvas-ribbon\n' +
+        '# For more information: https://github.com/zproo/canvas-ribbon\n' +
+        'canvas_ribbon:\n' +
+        '  enable: false\n' +
+        '  size: 300 # The width of the ribbon\n' +
+        '  alpha: 0.6 # The transparency of the ribbon\n' +
+        '  zIndex: -1 # The display level of the ribbon\n' +
+        '\n' +
+        '\n' +
+        '#! ---------------------------------------------------------------\n' +
+        '#! DO NOT EDIT THE FOLLOWING SETTINGS\n' +
+        '#! UNLESS YOU KNOW WHAT YOU ARE DOING\n' +
+        '#! See: https://theme-next.org/docs/advanced-settings\n' +
+        '#! ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Script Vendors. Set a CDN address for the vendor you want to customize.\n' +
+        '# Be aware that you would better use the same version as internal ones to avoid potential problems.\n' +
+        '# Remember to use the https protocol of CDN files when you enable https on your site.\n' +
+        'vendors:\n' +
+        '  # Internal path prefix.\n' +
+        '  _internal: lib\n' +
+        '\n' +
+        '  # Internal version: 3.1.0\n' +
+        '  # anime: //cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js\n' +
+        '  anime:\n' +
+        '\n' +
+        '  # Internal version: 5.13.0\n' +
+        '  # fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css\n' +
+        '  # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css\n' +
+        '  fontawesome:\n' +
+        '\n' +
+        '  # MathJax\n' +
+        '  # mathjax: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\n' +
+        '  mathjax:\n' +
+        '\n' +
+        '  # KaTeX\n' +
+        '  # katex: //cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css\n' +
+        '  # katex: //cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css\n' +
+        '  # copy_tex_js: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.js\n' +
+        '  # copy_tex_css: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.css\n' +
+        '  katex:\n' +
+        '  copy_tex_js:\n' +
+        '  copy_tex_css:\n' +
+        '\n' +
+        '  # Internal version: 0.2.8\n' +
+        '  # pjax: //cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js\n' +
+        '  pjax:\n' +
+        '\n' +
+        '  # FancyBox\n' +
+        '  # jquery: //cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js\n' +
+        '  # fancybox: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js\n' +
+        '  # fancybox_css: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css\n' +
+        '  jquery:\n' +
+        '  fancybox:\n' +
+        '  fancybox_css:\n' +
+        '\n' +
+        '  # Medium-zoom\n' +
+        '  # mediumzoom: //cdn.jsdelivr.net/npm/medium-zoom@1/dist/medium-zoom.min.js\n' +
+        '  mediumzoom:\n' +
+        '\n' +
+        '  # Lazyload\n' +
+        '  # lazyload: //cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js\n' +
+        '  # lazyload: //cdnjs.cloudflare.com/ajax/libs/lozad.js/1.14.0/lozad.min.js\n' +
+        '  lazyload:\n' +
+        '\n' +
+        '  # Pangu\n' +
+        '  # pangu: //cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js\n' +
+        '  # pangu: //cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js\n' +
+        '  pangu:\n' +
+        '\n' +
+        '  # Quicklink\n' +
+        '  # quicklink: //cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js\n' +
+        '  quicklink:\n' +
+        '\n' +
+        '  # DisqusJS\n' +
+        '  # disqusjs_js: //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js\n' +
+        '  # disqusjs_css: //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css\n' +
+        '  disqusjs_js:\n' +
+        '  disqusjs_css:\n' +
+        '\n' +
+        '  # Valine\n' +
+        '  # valine: //cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js\n' +
+        '  # valine: //cdnjs.cloudflare.com/ajax/libs/valine/1.3.10/Valine.min.js\n' +
+        '  valine:\n' +
+        '\n' +
+        '  # Gitalk\n' +
+        '  # gitalk_js: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js\n' +
+        '  # gitalk_css: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css\n' +
+        '  gitalk_js:\n' +
+        '  gitalk_css:\n' +
+        '\n' +
+        '  # Algolia Search\n' +
+        '  # algolia_search: //cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js\n' +
+        '  # instant_search: //cdn.jsdelivr.net/npm/instantsearch.js@4/dist/instantsearch.production.min.js\n' +
+        '  algolia_search:\n' +
+        '  instant_search:\n' +
+        '\n' +
+        '  # Mermaid\n' +
+        '  # mermaid: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js\n' +
+        '  # mermaid: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js\n' +
+        '  mermaid:\n' +
+        '\n' +
+        '  # Internal version: 1.2.1\n' +
+        '  # velocity: //cdn.jsdelivr.net/npm/velocity-animate@1/velocity.min.js\n' +
+        '  # velocity: //cdnjs.cloudflare.com/ajax/libs/velocity/1.2.1/velocity.min.js\n' +
+        '  # velocity_ui: //cdn.jsdelivr.net/npm/velocity-animate@1/velocity.ui.min.js\n' +
+        '  # velocity_ui: //cdnjs.cloudflare.com/ajax/libs/velocity/1.2.1/velocity.ui.min.js\n' +
+        '  velocity:\n' +
+        '  velocity_ui:\n' +
+        '\n' +
+        '  # Internal version: 1.0.2\n' +
+        '  # pace: //cdn.jsdelivr.net/npm/pace-js@1/pace.min.js\n' +
+        '  # pace: //cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js\n' +
+        '  # pace_css: //cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.css\n' +
+        '  # pace_css: //cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/blue/pace-theme-minimal.min.css\n' +
+        '  pace:\n' +
+        '  pace_css:\n' +
+        '\n' +
+        '  # Internal version: 1.0.0\n' +
+        '  # three: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three.min.js\n' +
+        '  # three_waves: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three-waves.min.js\n' +
+        '  # canvas_lines: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_lines.min.js\n' +
+        '  # canvas_sphere: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_sphere.min.js\n' +
+        '  three:\n' +
+        '  three_waves:\n' +
+        '  canvas_lines:\n' +
+        '  canvas_sphere:\n' +
+        '\n' +
+        '  # Internal version: 1.0.0\n' +
+        '  # canvas_ribbon: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js\n' +
+        '  canvas_ribbon:\n' +
+        '\n' +
+        '# Assets\n' +
+        'css: css\n' +
+        'js: js\n' +
+        'images: images\n',
+      position: 2150,
+      line: 58,
+      column: 2,
+      snippet: ' 56 |   #since: 2015\n' +
+        ' 57 | \n' +
+        ' 58 |   # Icon between year and copyrig ...\n' +
+        ' 59 |   icon:\n' +
+        '--------^\n' +
+        ' 60 |     # Icon name in Font Awesome.  ...\n' +
+        ' 61 |     name: fa fa-heart'
+    }
+  }
+} Process failed: %s _config.yml
+restart
+Fri 03 Dec 2021 02:39:07 AM CST
+INFO  Validating config
+FATAL Port 80 has been used. Try other port instead.
+FATAL {
+  err: Error: listen EADDRINUSE: address already in use :::80
+      at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+      at listenInCluster (net.js:1364:12)
+      at Server.listen (net.js:1450:7)
+      at /root/MYBLOG/node_modules/hexo-server/lib/server.js:69:12
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at checkPort (/root/MYBLOG/node_modules/hexo-server/lib/server.js:66:10)
+      at Hexo.module.exports (/root/MYBLOG/node_modules/hexo-server/lib/server.js:18:10)
+      at Hexo.tryCatcher (/root/MYBLOG/node_modules/bluebird/js/release/util.js:16:23)
+      at Hexo.<anonymous> (/root/MYBLOG/node_modules/bluebird/js/release/method.js:15:34)
+      at /root/MYBLOG/node_modules/hexo/lib/hexo/index.js:260:17
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at Hexo.call (/root/MYBLOG/node_modules/hexo/lib/hexo/index.js:256:12)
+      at /usr/local/lib/node_modules/hexo-cli/lib/hexo.js:60:17
+      at tryCatcher (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)
+      at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:547:31)
+      at Promise._settlePromise (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:604:18)
+      at Promise._settlePromise0 (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:649:10)
+      at Promise._settlePromises (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:729:18) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 80
+  }
+} Something's wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html
+0
+k is  0
+good
+restart
+Fri 03 Dec 2021 02:41:07 AM CST
+INFO  Validating config
+FATAL Port 80 has been used. Try other port instead.
+FATAL {
+  err: Error: listen EADDRINUSE: address already in use :::80
+      at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+      at listenInCluster (net.js:1364:12)
+      at Server.listen (net.js:1450:7)
+      at /root/MYBLOG/node_modules/hexo-server/lib/server.js:69:12
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at checkPort (/root/MYBLOG/node_modules/hexo-server/lib/server.js:66:10)
+      at Hexo.module.exports (/root/MYBLOG/node_modules/hexo-server/lib/server.js:18:10)
+      at Hexo.tryCatcher (/root/MYBLOG/node_modules/bluebird/js/release/util.js:16:23)
+      at Hexo.<anonymous> (/root/MYBLOG/node_modules/bluebird/js/release/method.js:15:34)
+      at /root/MYBLOG/node_modules/hexo/lib/hexo/index.js:260:17
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at Hexo.call (/root/MYBLOG/node_modules/hexo/lib/hexo/index.js:256:12)
+      at /usr/local/lib/node_modules/hexo-cli/lib/hexo.js:60:17
+      at tryCatcher (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)
+      at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:547:31)
+      at Promise._settlePromise (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:604:18)
+      at Promise._settlePromise0 (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:649:10)
+      at Promise._settlePromises (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:729:18) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 80
+  }
+} Something's wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html
+ERROR Theme config load failed.
+ERROR {
+  err: YAMLException: bad indentation of a mapping entry (60:3)
+  
+   57 |   #since: 2015
+   58 | 
+   59 |   # Icon between year and copyrig ...
+   60 |   icon:
+  --------^
+   61 |     # Icon name in Font Awesome.  ...
+   62 |     name: fa fa-heart
+      at generateError (/root/MYBLOG/node_modules/js-yaml/lib/loader.js:183:10)
+      at throwError (/root/MYBLOG/node_modules/js-yaml/lib/loader.js:187:9)
+      at readBlockMapping (/root/MYBLOG/node_modules/js-yaml/lib/loader.js:1182:7)
+      at composeNode (/root/MYBLOG/node_modules/js-yaml/lib/loader.js:1441:12)
+      at readDocument (/root/MYBLOG/node_modules/js-yaml/lib/loader.js:1625:3)
+      at loadDocuments (/root/MYBLOG/node_modules/js-yaml/lib/loader.js:1688:5)
+      at Object.load (/root/MYBLOG/node_modules/js-yaml/lib/loader.js:1714:19)
+      at Hexo.yamlHelper (/root/MYBLOG/node_modules/hexo/lib/plugins/renderer/yaml.js:7:15)
+      at Hexo.tryCatcher (/root/MYBLOG/node_modules/bluebird/js/release/util.js:16:23)
+      at Hexo.<anonymous> (/root/MYBLOG/node_modules/bluebird/js/release/method.js:15:34)
+      at /root/MYBLOG/node_modules/hexo/lib/hexo/render.js:75:22
+      at tryCatcher (/root/MYBLOG/node_modules/bluebird/js/release/util.js:16:23)
+      at Promise._settlePromiseFromHandler (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:547:31)
+      at Promise._settlePromise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:604:18)
+      at Promise._settlePromise0 (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:649:10)
+      at Promise._settlePromises (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:729:18)
+      at _drainQueueStep (/root/MYBLOG/node_modules/bluebird/js/release/async.js:93:12)
+      at _drainQueue (/root/MYBLOG/node_modules/bluebird/js/release/async.js:86:9)
+      at Async._drainQueues (/root/MYBLOG/node_modules/bluebird/js/release/async.js:102:5)
+      at Immediate.Async.drainQueues [as _onImmediate] (/root/MYBLOG/node_modules/bluebird/js/release/async.js:15:14)
+      at processImmediate (internal/timers.js:461:21) {
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# ---------------------------------------------------------------\n' +
+        '# Theme Core Configuration Settings\n' +
+        '# See: https://theme-next.org/docs/theme-settings/\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# If false, merge configs from `_data/next.yml` into default configuration (rewrite).\n' +
+        '# If true, will fully override default configuration by options from `_data/next.yml` (override). Only for NexT settings.\n' +
+        '# And if true, all config from default NexT `_config.yml` have to be copied into `next.yml`. Use if you know what you are doing.\n' +
+        '# Useful if you want to comment some options from NexT `_config.yml` by `next.yml` without editing default config.\n' +
+        'override: false\n' +
+        '\n' +
+        '# Console reminder if new version released.\n' +
+        'reminder: false\n' +
+        '\n' +
+        '# Allow to cache content generation. Introduced in NexT v6.0.0.\n' +
+        'cache:\n' +
+        '  enable: true\n' +
+        '\n' +
+        '# Remove unnecessary files after hexo generate.\n' +
+        'minify: false\n' +
+        '\n' +
+        '# Define custom file paths.\n' +
+        '# Create your custom files in site directory `source/_data` and uncomment needed files below.\n' +
+        'custom_file_path:\n' +
+        '  #head: source/_data/head.swig\n' +
+        '  #header: source/_data/header.swig\n' +
+        '  #sidebar: source/_data/sidebar.swig\n' +
+        '  #postMeta: source/_data/post-meta.swig\n' +
+        '  #postBodyEnd: source/_data/post-body-end.swig\n' +
+        '  #footer: source/_data/footer.swig\n' +
+        '  #bodyEnd: source/_data/body-end.swig\n' +
+        '  #variable: source/_data/variables.styl\n' +
+        '  #mixin: source/_data/mixins.styl\n' +
+        '  #style: source/_data/styles.styl\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Site Information Settings\n' +
+        '# See: https://theme-next.org/docs/getting-started/\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        'favicon:\n' +
+        '  small: /images/favicon-16x16-next.png\n' +
+        '  medium: /images/favicon-32x32-next.png\n' +
+        '  apple_touch_icon: /images/apple-touch-icon-next.png\n' +
+        '  safari_pinned_tab: /images/logo.svg\n' +
+        '  #android_manifest: /images/manifest.json\n' +
+        '  #ms_browserconfig: /images/browserconfig.xml\n' +
+        '\n' +
+        '# Show multilingual switcher in footer.\n' +
+        'language_switcher: false\n' +
+        '\n' +
+        'footer:\n' +
+        '        #tongji\n' +
+        '        counter: true\n' +
+        '  # Specify the date when the site was setup. If not defined, current year will be used.\n' +
+        '  #since: 2015\n' +
+        '\n' +
+        '  # Icon between year and copyright info.\n' +
+        '  icon:\n' +
+        '    # Icon name in Font Awesome. See: https://fontawesome.com/icons\n' +
+        '    name: fa fa-heart\n' +
+        '    # If you want to animate the icon, set it to true.\n' +
+        '    animated: false\n' +
+        '    # Change the color of icon, using Hex Code.\n' +
+        '    color: "#ff0000"\n' +
+        '\n' +
+        '  # If not defined, `author` from Hexo `_config.yml` will be used.\n' +
+        '  copyright:\n' +
+        '\n' +
+        '  # Powered by Hexo & NexT\n' +
+        '  powered: true\n' +
+        '\n' +
+        '  # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn\n' +
+        '  beian:\n' +
+        '    enable: false\n' +
+        '    icp:\n' +
+        '    # The digit in the num of gongan beian.\n' +
+        '    gongan_id:\n' +
+        '    # The full num of gongan beian.\n' +
+        '    gongan_num:\n' +
+        '    # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download\n' +
+        '    gongan_icon_url:\n' +
+        '\n' +
+        '# Creative Commons 4.0 International License.\n' +
+        '# See: https://creativecommons.org/share-your-work/licensing-types-examples\n' +
+        '# Available values of license: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero\n' +
+        '# You can set a language value if you prefer a translated version of CC license, e.g. deed.zh\n' +
+        '# CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org\n' +
+        'creative_commons:\n' +
+        '  license: by-nc-sa\n' +
+        '  sidebar: false\n' +
+        '  post: false\n' +
+        '  language:\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Scheme Settings\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Schemes\n' +
+        '#scheme: Muse\n' +
+        '#scheme: Mist\n' +
+        '#scheme: Pisces\n' +
+        'scheme: Gemini\n' +
+        '\n' +
+        '# Dark Mode\n' +
+        'darkmode: true\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Menu Settings\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Usage: `Key: /link/ || icon`\n' +
+        '# Key is the name of menu item. If the translation for this item is available, the translated text will be loaded, otherwise the Key name will be used. Key is case-senstive.\n' +
+        '# Value before `||` delimiter is the target link, value after `||` delimiter is the name of Font Awesome icon.\n' +
+        '# When running the site in a subdirectory (e.g. yoursite.com/blog), remove the leading slash from link value (/archives -> archives).\n' +
+        '# External url should start with http:// or https://\n' +
+        'menu:\n' +
+        '  home: / || fa fa-home\n' +
+        '  #about: /about/ || fa fa-user\n' +
+        '  #tags: /tags/ || fa fa-tags\n' +
+        '  #categories: /categories/ || fa fa-th\n' +
+        '  archives: /archives/ || fa fa-archive\n' +
+        '  #schedule: /schedule/ || fa fa-calendar\n' +
+        '  #sitemap: /sitemap.xml || fa fa-sitemap\n' +
+        '  #commonweal: /404/ || fa fa-heartbeat\n' +
+        '\n' +
+        '# Enable / Disable menu icons / item badges.\n' +
+        'menu_settings:\n' +
+        '  icons: true\n' +
+        '  badges: false\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Sidebar Settings\n' +
+        '# See: https://theme-next.org/docs/theme-settings/sidebar\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        'sidebar:\n' +
+        '  # Sidebar Position.\n' +
+        '  position: left\n' +
+        '  #position: right\n' +
+        '\n' +
+        '  # Manual define the sidebar width. If commented, will be default for:\n' +
+        '  # Muse | Mist: 320\n' +
+        '  # Pisces | Gemini: 240\n' +
+        '  #width: 300\n' +
+        '\n' +
+        '  # Sidebar Display (only for Muse | Mist), available values:\n' +
+        '  #  - post    expand on posts automatically. Default.\n' +
+        '  #  - always  expand for all pages automatically.\n' +
+        '  #  - hide    expand only when click on the sidebar toggle icon.\n' +
+        '  #  - remove  totally remove sidebar including sidebar toggle.\n' +
+        '  display: post\n' +
+        '\n' +
+        '  # Sidebar padding in pixels.\n' +
+        '  padding: 18\n' +
+        '  # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).\n' +
+        '  offset: 12\n' +
+        '  # Enable sidebar on narrow view (only for Muse | Mist).\n' +
+        '  onmobile: false\n' +
+        '\n' +
+        '# Sidebar Avatar\n' +
+        'avatar:\n' +
+        '  # Replace the default image and set the url here.\n' +
+        '  url: #/images/avatar.gif\n' +
+        '  # If true, the avatar will be dispalyed in circle.\n' +
+        '  rounded: false\n' +
+        '  # If true, the avatar will be rotated with the cursor.\n' +
+        '  rotated: false\n' +
+        '\n' +
+        '# Posts / Categories / Tags in sidebar.\n' +
+        'site_state: true\n' +
+        '\n' +
+        '# Social Links\n' +
+        '# Usage: `Key: permalink || icon`\n' +
+        '# Key is the link label showing to end users.\n' +
+        '# Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.\n' +
+        'social:\n' +
+        '  #GitHub: https://github.com/yourname || fab fa-github\n' +
+        '  #E-Mail: mailto:yourname@gmail.com || fa fa-envelope\n' +
+        '  #Weibo: https://weibo.com/yourname || fab fa-weibo\n' +
+        '  #Google: https://plus.google.com/yourname || fab fa-google\n' +
+        '  #Twitter: https://twitter.com/yourname || fab fa-twitter\n' +
+        '  #FB Page: https://www.facebook.com/yourname || fab fa-facebook\n' +
+        '  #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow\n' +
+        '  #YouTube: https://youtube.com/yourname || fab fa-youtube\n' +
+        '  #Instagram: https://instagram.com/yourname || fab fa-instagram\n' +
+        '  #Skype: skype:yourname?call|chat || fab fa-skype\n' +
+        '\n' +
+        'social_icons:\n' +
+        '  enable: true\n' +
+        '  icons_only: false\n' +
+        '  transition: false\n' +
+        '\n' +
+        '# Blog rolls\n' +
+        'links_settings:\n' +
+        '  icon: fa fa-link\n' +
+        '  title: Links\n' +
+        '  # Available values: block | inline\n' +
+        '  layout: block\n' +
+        '\n' +
+        'links:\n' +
+        '  #Title: http://yoursite.com\n' +
+        '\n' +
+        '# Table of Contents in the Sidebar\n' +
+        '# Front-matter variable (unsupport wrap expand_all).\n' +
+        'toc:\n' +
+        '  enable: true\n' +
+        '  # Automatically add list number to toc.\n' +
+        '  number: true\n' +
+        '  # If true, all words will placed on next lines if header width longer then sidebar width.\n' +
+        '  wrap: false\n' +
+        '  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.\n' +
+        '  expand_all: false\n' +
+        '  # Maximum heading depth of generated toc.\n' +
+        '  max_depth: 6\n' +
+        '\n' +
+        '# A button to open designated chat widget in sidebar.\n' +
+        '# Firstly, you need enable the chat service you want to activate its sidebar button.\n' +
+        'chat:\n' +
+        '  enable: false\n' +
+        '  #service: chatra\n' +
+        '  #service: tidio\n' +
+        '  icon: fa fa-comment # Icon name in Font Awesome, set false to disable icon.\n' +
+        '  text: Chat # Button text, change it as you wish.\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Post Settings\n' +
+        '# See: https://theme-next.org/docs/theme-settings/posts\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Automatically excerpt description in homepage as preamble text.\n' +
+        'excerpt_description: true\n' +
+        '\n' +
+        '# Read more button\n' +
+        '# If true, the read more button will be displayed in excerpt section.\n' +
+        'read_more_btn: true\n' +
+        '\n' +
+        '# Post meta display settings\n' +
+        'post_meta:\n' +
+        '  item_text: true\n' +
+        '  created_at: true\n' +
+        '  updated_at:\n' +
+        '    enable: true\n' +
+        '    another_day: true\n' +
+        '  categories: true\n' +
+        '\n' +
+        '# Post wordcount display settings\n' +
+        '# Dependencies: https://github.com/theme-next/hexo-symbols-count-time\n' +
+        'symbols_count_time:\n' +
+        '  separated_meta: true\n' +
+        '  item_text_post: true\n' +
+        '  item_text_total: false\n' +
+        '\n' +
+        '# Use icon instead of the symbol # to indicate the tag at the bottom of the post\n' +
+        'tag_icon: false\n' +
+        '\n' +
+        '# Reward (Donate)\n' +
+        '# Front-matter variable (unsupport animation).\n' +
+        'reward_settings:\n' +
+        '  # If true, reward will be displayed in every article by default.\n' +
+        '  enable: false\n' +
+        '  animation: false\n' +
+        '  #comment: Donate comment here.\n' +
+        '\n' +
+        'reward:\n' +
+        '  #wechatpay: /images/wechatpay.png\n' +
+        '  #alipay: /images/alipay.png\n' +
+        '  #paypal: /images/paypal.png\n' +
+        '  #bitcoin: /images/bitcoin.png\n' +
+        '\n' +
+        '# Subscribe through Telegram Channel, Twitter, etc.\n' +
+        '# Usage: `Key: permalink || icon` (Font Awesome)\n' +
+        'follow_me:\n' +
+        '  #Twitter: https://twitter.com/username || fab fa-twitter\n' +
+        '  #Telegram: https://t.me/channel_name || fab fa-telegram\n' +
+        '  #WeChat: /images/wechat_channel.jpg || fab fa-weixin\n' +
+        '  #RSS: /atom.xml || fa fa-rss\n' +
+        '\n' +
+        '# Related popular posts\n' +
+        '# Dependencies: https://github.com/tea3/hexo-related-popular-posts\n' +
+        'related_posts:\n' +
+        '  enable: false\n' +
+        '  title: # Custom header, leave empty to use the default one\n' +
+        '  display_in_home: false\n' +
+        '  params:\n' +
+        '    maxCount: 5\n' +
+        '    #PPMixingRate: 0.0\n' +
+        '    #isDate: false\n' +
+        '    #isImage: false\n' +
+        '    #isExcerpt: false\n' +
+        '\n' +
+        '# Post edit\n' +
+        '# Dependencies: https://github.com/hexojs/hexo-deployer-git\n' +
+        'post_edit:\n' +
+        '  enable: false\n' +
+        '  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source\n' +
+        '  #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit\n' +
+        '\n' +
+        '# Show previous post and next post in post footer if exists\n' +
+        '# Available values: left | right | false\n' +
+        'post_navigation: left\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Custom Page Settings\n' +
+        '# See: https://theme-next.org/docs/theme-settings/custom-pages\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# TagCloud settings for tags page.\n' +
+        'tagcloud:\n' +
+        '  # All values below are same as default, change them by yourself.\n' +
+        '  min: 12 # Minimun font size in px\n' +
+        '  max: 30 # Maxium font size in px\n' +
+        '  start: "#ccc" # Start color (hex, rgba, hsla or color keywords)\n' +
+        '  end: "#111" # End color (hex, rgba, hsla or color keywords)\n' +
+        '  amount: 200 # Amount of tags, change it if you have more than 200 tags\n' +
+        '\n' +
+        '# Google Calendar\n' +
+        '# Share your recent schedule to others via calendar page.\n' +
+        'calendar:\n' +
+        '  calendar_id: <required> # Your Google account E-Mail\n' +
+        '  api_key: <required>\n' +
+        '  orderBy: startTime\n' +
+        '  offsetMax: 24 # Time Range\n' +
+        '  offsetMin: 4 # Time Range\n' +
+        '  showDeleted: false\n' +
+        '  singleEvents: true\n' +
+        '  maxResults: 250\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Misc Theme Settings\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Set the text alignment in posts / pages.\n' +
+        'text_align:\n' +
+        '  # Available values: start | end | left | right | center | justify | justify-all | match-parent\n' +
+        '  desktop: justify\n' +
+        '  mobile: justify\n' +
+        '\n' +
+        '# Reduce padding / margin indents on devices with narrow width.\n' +
+        'mobile_layout_economy: false\n' +
+        '\n' +
+        '# Android Chrome header panel color ($brand-bg / $headband-bg => $black-deep).\n' +
+        'android_chrome_color: "#222"\n' +
+        '\n' +
+        '# Custom Logo (Do not support scheme Mist)\n' +
+        'custom_logo: #/uploads/custom-logo.jpg\n' +
+        '\n' +
+        'codeblock:\n' +
+        '  # Code Highlight theme\n' +
+        '  # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic\n' +
+        '  # See: https://github.com/chriskempson/tomorrow-theme\n' +
+        '  highlight_theme: normal\n' +
+        '  # Add copy button on codeblock\n' +
+        '  copy_button:\n' +
+        '    enable: false\n' +
+        '    # Show text copy result.\n' +
+        '    show_result: false\n' +
+        '    # Available values: default | flat | mac\n' +
+        '    style:\n' +
+        '\n' +
+        'back2top:\n' +
+        '  enable: true\n' +
+        '  # Back to top in sidebar.\n' +
+        '  sidebar: false\n' +
+        '  # Scroll percent label in b2t button.\n' +
+        '  scrollpercent: false\n' +
+        '\n' +
+        '# Reading progress bar\n' +
+        'reading_progress:\n' +
+        '  enable: false\n' +
+        '  # Available values: top | bottom\n' +
+        '  position: top\n' +
+        '  color: "#37c6c0"\n' +
+        '  height: 3px\n' +
+        '\n' +
+        '# Bookmark Support\n' +
+        'bookmark:\n' +
+        '  enable: false\n' +
+        '  # Customize the color of the bookmark.\n' +
+        '  color: "#222"\n' +
+        '  # If auto, save the reading progress when closing the page or clicking the bookmark-icon.\n' +
+        '  # If manual, only save it by clicking the bookmark-icon.\n' +
+        '  save: auto\n' +
+        '\n' +
+        '# `Follow me on GitHub` banner in the top-right corner.\n' +
+        'github_banner:\n' +
+        '  enable: false\n' +
+        '  permalink: https://github.com/yourname\n' +
+        '  title: Follow me on GitHub\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Font Settings\n' +
+        '# See: https://theme-next.org/docs/theme-settings/#Fonts-Customization\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Find fonts on Google Fonts (https://www.google.com/fonts)\n' +
+        '# All fonts set here will have the following styles:\n' +
+        '#   light | light italic | normal | normal italic | bold | bold italic\n' +
+        '# Be aware that setting too much fonts will cause site running slowly\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# To avoid space between header and sidebar in scheme Pisces / Gemini, Web Safe fonts are recommended for `global` (and `title`):\n' +
+        '# Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        'font:\n' +
+        '  enable: false\n' +
+        '\n' +
+        '  # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).\n' +
+        '  host:\n' +
+        '\n' +
+        '  # Font options:\n' +
+        '  # `external: true` will load this font family from `host` above.\n' +
+        '  # `family: Times New Roman`. Without any quotes.\n' +
+        '  # `size: x.x`. Use `em` as unit. Default: 1 (16px)\n' +
+        '\n' +
+        '  # Global font settings used for all elements inside <body>.\n' +
+        '  global:\n' +
+        '    external: true\n' +
+        '    family: Lato\n' +
+        '    size:\n' +
+        '\n' +
+        '  # Font settings for site title (.site-title).\n' +
+        '  title:\n' +
+        '    external: true\n' +
+        '    family:\n' +
+        '    size:\n' +
+        '\n' +
+        '  # Font settings for headlines (<h1> to <h6>).\n' +
+        '  headings:\n' +
+        '    external: true\n' +
+        '    family:\n' +
+        '    size:\n' +
+        '\n' +
+        '  # Font settings for posts (.post-body).\n' +
+        '  posts:\n' +
+        '    external: true\n' +
+        '    family:\n' +
+        '\n' +
+        '  # Font settings for <code> and code blocks.\n' +
+        '  codes:\n' +
+        '    external: true\n' +
+        '    family:\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# SEO Settings\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Disable Baidu transformation on mobile devices.\n' +
+        'disable_baidu_transformation: false\n' +
+        '\n' +
+        '# If true, site-subtitle will be added to index page.\n' +
+        '# Remember to set up your site-subtitle in Hexo `_config.yml` (e.g. subtitle: Subtitle)\n' +
+        'index_with_subtitle: false\n' +
+        '\n' +
+        '# Automatically add external URL with Base64 encrypt & decrypt.\n' +
+        'exturl: false\n' +
+        '\n' +
+        '# Google Webmaster tools verification.\n' +
+        '# See: https://www.google.com/webmasters\n' +
+        'google_site_verification:\n' +
+        '\n' +
+        '# Bing Webmaster tools verification.\n' +
+        '# See: https://www.bing.com/webmaster\n' +
+        'bing_site_verification:\n' +
+        '\n' +
+        '# Yandex Webmaster tools verification.\n' +
+        '# See: https://webmaster.yandex.ru\n' +
+        'yandex_site_verification:\n' +
+        '\n' +
+        '# Baidu Webmaster tools verification.\n' +
+        '# See: https://ziyuan.baidu.com/site\n' +
+        'baidu_site_verification:\n' +
+        '\n' +
+        '# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.\n' +
+        'baidu_push: false\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Third Party Plugins & Services Settings\n' +
+        '# See: https://theme-next.org/docs/third-party-services/\n' +
+        '# More plugins: https://github.com/theme-next/awesome-next\n' +
+        '# You may need to install dependencies or set CDN URLs in `vendors`\n' +
+        '# There are two different CDN providers by default:\n' +
+        '#   - jsDelivr (cdn.jsdelivr.net), works everywhere even in China\n' +
+        '#   - CDNJS (cdnjs.cloudflare.com), provided by cloudflare\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Math Formulas Render Support\n' +
+        'math:\n' +
+        '  # Default (true) will load mathjax / katex script on demand.\n' +
+        '  # That is it only render those page which has `mathjax: true` in Front-matter.\n' +
+        '  # If you set it to false, it will load mathjax / katex srcipt EVERY PAGE.\n' +
+        '  per_page: true\n' +
+        '\n' +
+        '  # hexo-renderer-pandoc (or hexo-renderer-kramed) required for full MathJax support.\n' +
+        '  mathjax:\n' +
+        '    enable: false\n' +
+        '    # See: https://mhchem.github.io/MathJax-mhchem/\n' +
+        '    mhchem: false\n' +
+        '\n' +
+        '  # hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin) required for full Katex support.\n' +
+        '  katex:\n' +
+        '    enable: false\n' +
+        '    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex\n' +
+        '    copy_tex: false\n' +
+        '\n' +
+        '# Easily enable fast Ajax navigation on your website.\n' +
+        '# Dependencies: https://github.com/theme-next/theme-next-pjax\n' +
+        'pjax: false\n' +
+        '\n' +
+        '# FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.\n' +
+        '# For more information: https://fancyapps.com/fancybox\n' +
+        'fancybox: false\n' +
+        '\n' +
+        '# A JavaScript library for zooming images like Medium.\n' +
+        '# Do not enable both `fancybox` and `mediumzoom`.\n' +
+        '# For more information: https://github.com/francoischalifour/medium-zoom\n' +
+        'mediumzoom: false\n' +
+        '\n' +
+        '# Vanilla JavaScript plugin for lazyloading images.\n' +
+        '# For more information: https://github.com/ApoorvSaxena/lozad.js\n' +
+        'lazyload: false\n' +
+        '\n' +
+        '# Pangu Support\n' +
+        '# For more information: https://github.com/vinta/pangu.js\n' +
+        'pangu: false\n' +
+        '\n' +
+        '# Quicklink Support\n' +
+        '# Do not enable both `pjax` and `quicklink`.\n' +
+        '# For more information: https://github.com/GoogleChromeLabs/quicklink\n' +
+        '# Front-matter (unsupport home archive).\n' +
+        'quicklink:\n' +
+        '  enable: false\n' +
+        '\n' +
+        '  # Home page and archive page can be controlled through home and archive options below.\n' +
+        '  # This configuration item is independent of `enable`.\n' +
+        '  home: false\n' +
+        '  archive: false\n' +
+        '\n' +
+        '  # Default (true) will initialize quicklink after the load event fires.\n' +
+        '  delay: true\n' +
+        '  # Custom a time in milliseconds by which the browser must execute prefetching.\n' +
+        '  timeout: 3000\n' +
+        '  # Default (true) will enable fetch() or falls back to XHR.\n' +
+        '  priority: true\n' +
+        '\n' +
+        '  # For more flexibility you can add some patterns (RegExp, Function, or Array) to ignores.\n' +
+        '  # See: https://github.com/GoogleChromeLabs/quicklink#custom-ignore-patterns\n' +
+        '  ignores:\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Comments Settings\n' +
+        '# See: https://theme-next.org/docs/third-party-services/comments\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Multiple Comment System Support\n' +
+        'comments:\n' +
+        '  # Available values: tabs | buttons\n' +
+        '  style: tabs\n' +
+        '  # Choose a comment system to be displayed by default.\n' +
+        '  # Available values: changyan | disqus | disqusjs | gitalk | livere | valine\n' +
+        '  active:\n' +
+        '  # Setting `true` means remembering the comment system selected by the visitor.\n' +
+        '  storage: true\n' +
+        '  # Lazyload all comment systems.\n' +
+        '  lazyload: false\n' +
+        '  # Modify texts or order for any navs, here are some examples.\n' +
+        '  nav:\n' +
+        '    #disqus:\n' +
+        '    #  text: Load Disqus\n' +
+        '    #  order: -1\n' +
+        '    #gitalk:\n' +
+        '    #  order: -2\n' +
+        '\n' +
+        '# Disqus\n' +
+        'disqus:\n' +
+        '  enable: false\n' +
+        '  shortname:\n' +
+        '  count: true\n' +
+        '  #post_meta_order: 0\n' +
+        '\n' +
+        '# DisqusJS\n' +
+        '# Alternative Disqus - Render comment component using Disqus API.\n' +
+        '# Demo: https://suka.js.org/DisqusJS/\n' +
+        '# For more information: https://github.com/SukkaW/DisqusJS\n' +
+        'disqusjs:\n' +
+        '  enable: false\n' +
+        '  # API Endpoint of Disqus API (https://disqus.com/api/).\n' +
+        '  # Leave api empty if you are able to connect to Disqus API. Otherwise you need a reverse proxy for it.\n' +
+        '  # For example:\n' +
+        '  # api: https://disqus.skk.moe/disqus/\n' +
+        '  api:\n' +
+        '  apikey: # Register new application from https://disqus.com/api/applications/\n' +
+        '  shortname: # See: https://disqus.com/admin/settings/general/\n' +
+        '\n' +
+        '# Changyan\n' +
+        'changyan:\n' +
+        '  enable: false\n' +
+        '  appid:\n' +
+        '  appkey:\n' +
+        '  #post_meta_order: 0\n' +
+        '\n' +
+        '# Valine\n' +
+        '# For more information: https://valine.js.org, https://github.com/xCss/Valine\n' +
+        'valine:\n' +
+        '  enable: false\n' +
+        '  appid: # Your leancloud application appid\n' +
+        '  appkey: # Your leancloud application appkey\n' +
+        '  notify: false # Mail notifier\n' +
+        '  verify: false # Verification code\n' +
+        '  placeholder: Just go go # Comment box placeholder\n' +
+        '  avatar: mm # Gravatar style\n' +
+        '  guest_info: nick,mail,link # Custom comment header\n' +
+        '  pageSize: 10 # Pagination size\n' +
+        '  language: # Language, available values: en, zh-cn\n' +
+        '  visitor: false # Article reading statistic\n' +
+        '  comment_count: true # If false, comment count will only be displayed in post page, not in home page\n' +
+        '  recordIP: false # Whether to record the commenter IP\n' +
+        '  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)\n' +
+        '  #post_meta_order: 0\n' +
+        '\n' +
+        '# LiveRe comments system\n' +
+        '# You can get your uid from https://livere.com/insight/myCode (General web site)\n' +
+        'livere_uid: # <your_uid>\n' +
+        '\n' +
+        '# Gitalk\n' +
+        '# For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk\n' +
+        'gitalk:\n' +
+        '  enable: false\n' +
+        '  github_id: # GitHub repo owner\n' +
+        '  repo: # Repository name to store issues\n' +
+        '  client_id: # GitHub Application Client ID\n' +
+        '  client_secret: # GitHub Application Client Secret\n' +
+        '  admin_user: # GitHub repo owner and collaborators, only these guys can initialize gitHub issues\n' +
+        '  distraction_free_mode: true # Facebook-like distraction free mode\n' +
+        "  # Gitalk's display language depends on user's browser or system environment\n" +
+        '  # If you want everyone visiting your site to see a uniform language, you can set a force language value\n' +
+        '  # Available values: en | es-ES | fr | ru | zh-CN | zh-TW\n' +
+        '  language:\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Post Widgets & Content Sharing Services\n' +
+        '# See: https://theme-next.org/docs/third-party-services/post-widgets\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Star rating support to each article.\n' +
+        '# To get your ID visit https://widgetpack.com\n' +
+        'rating:\n' +
+        '  enable: false\n' +
+        '  id:     # <app_id>\n' +
+        '  color:  fc6423\n' +
+        '\n' +
+        '# AddThis Share. See: https://www.addthis.com\n' +
+        '# Go to https://www.addthis.com/dashboard to customize your tools.\n' +
+        'add_this_id:\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Statistics and Analytics\n' +
+        '# See: https://theme-next.org/docs/third-party-services/statistics-and-analytics\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Google Analytics\n' +
+        'google_analytics:\n' +
+        '  tracking_id: # <app_id>\n' +
+        '  # By default, NexT will load an external gtag.js script on your site.\n' +
+        '  # If you only need the pageview feature, set the following option to true to get a better performance.\n' +
+        '  only_pageview: false\n' +
+        '\n' +
+        '# Baidu Analytics\n' +
+        'baidu_analytics: # <app_id>\n' +
+        '\n' +
+        '# Growingio Analytics\n' +
+        'growingio_analytics: # <project_id>\n' +
+        '\n' +
+        '# CNZZ count\n' +
+        'cnzz_siteid:\n' +
+        '\n' +
+        '# Show number of visitors of each article.\n' +
+        '# You can visit https://leancloud.cn to get AppID and AppKey.\n' +
+        "# AppID and AppKey are recommended to be the same as valine's for counter compatibility.\n" +
+        '# Do not enable both `valine.visitor` and `leancloud_visitors`.\n' +
+        'leancloud_visitors:\n' +
+        '  enable: false\n' +
+        '  app_id: # <your app id>\n' +
+        '  app_key: # <your app key>\n' +
+        '  # Required for apps from CN region\n' +
+        '  server_url: # <your server url>\n' +
+        '  # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security\n' +
+        "  # If you don't care about security in leancloud counter and just want to use it directly\n" +
+        '  # (without hexo-leancloud-counter-security plugin), set `security` to `false`.\n' +
+        '  security: true\n' +
+        '\n' +
+        '# Another tool to show number of visitors to each article.\n' +
+        '# Visit https://console.firebase.google.com/u/0/ to get apiKey and projectId.\n' +
+        '# Visit https://firebase.google.com/docs/firestore/ to get more information about firestore.\n' +
+        'firestore:\n' +
+        '  enable: false\n' +
+        '  collection: articles # Required, a string collection name to access firestore database\n' +
+        '  apiKey: # Required\n' +
+        '  projectId: # Required\n' +
+        '\n' +
+        '# Show Views / Visitors of the website / page with busuanzi.\n' +
+        '# Get more information on http://ibruce.info/2015/04/04/busuanzi\n' +
+        'busuanzi_count:\n' +
+        '  enable: true\n' +
+        '  total_visitors: true\n' +
+        '  total_visitors_icon: fa fa-user\n' +
+        '  total_views: true\n' +
+        '  total_views_icon: fa fa-eye\n' +
+        '  post_views: true\n' +
+        '  post_views_icon: fa fa-eye\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Search Services\n' +
+        '# See: https://theme-next.org/docs/third-party-services/search-services\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Algolia Search\n' +
+        '# For more information: https://www.algolia.com\n' +
+        'algolia_search:\n' +
+        '  enable: false\n' +
+        '  hits:\n' +
+        '    per_page: 10\n' +
+        '  labels:\n' +
+        '    input_placeholder: Search for Posts\n' +
+        '    hits_empty: "We didn\'t find any results for the search: ${query}"\n' +
+        '    hits_stats: "${hits} results found in ${time} ms"\n' +
+        '\n' +
+        '# Local Search\n' +
+        '# Dependencies: https://github.com/theme-next/hexo-generator-searchdb\n' +
+        'local_search:\n' +
+        '  enable: false\n' +
+        '  # If auto, trigger search by changing input.\n' +
+        '  # If manual, trigger search by pressing enter key or search button.\n' +
+        '  trigger: auto\n' +
+        '  # Show top n results per article, show all results by setting to -1\n' +
+        '  top_n_per_article: 1\n' +
+        '  # Unescape html strings to the readable one.\n' +
+        '  unescape: false\n' +
+        '  # Preload the search data when the page loads.\n' +
+        '  preload: false\n' +
+        '\n' +
+        '# Swiftype Search API Key\n' +
+        'swiftype_key:\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Chat Services\n' +
+        '# See: https://theme-next.org/docs/third-party-services/chat-services\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Chatra Support\n' +
+        '# See: https://chatra.io\n' +
+        '# Dashboard: https://app.chatra.io/settings/general\n' +
+        'chatra:\n' +
+        '  enable: false\n' +
+        '  async: true\n' +
+        '  id: # Visit Dashboard to get your ChatraID\n' +
+        '  #embed: # Unfinished experimental feature for developers. See: https://chatra.io/help/api/#injectto\n' +
+        '\n' +
+        '# Tidio Support\n' +
+        '# See: https://www.tidiochat.com\n' +
+        '# Dashboard: https://www.tidiochat.com/panel/dashboard\n' +
+        'tidio:\n' +
+        '  enable: false\n' +
+        '  key: # Public Key, get it from dashboard. See: https://www.tidiochat.com/panel/settings/developer\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Tags Settings\n' +
+        '# See: https://theme-next.org/docs/tag-plugins/\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Note tag (bs-callout)\n' +
+        'note:\n' +
+        '  # Note tag style values:\n' +
+        '  #  - simple    bs-callout old alert style. Default.\n' +
+        '  #  - modern    bs-callout new (v2-v3) alert style.\n' +
+        '  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.\n' +
+        '  #  - disabled  disable all CSS styles import of note tag.\n' +
+        '  style: simple\n' +
+        '  icons: false\n' +
+        '  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).\n' +
+        '  # Offset also applied to label tag variables. This option can work with disabled note tag.\n' +
+        '  light_bg_offset: 0\n' +
+        '\n' +
+        '# Tabs tag\n' +
+        'tabs:\n' +
+        '  transition:\n' +
+        '    tabs: false\n' +
+        '    labels: true\n' +
+        '\n' +
+        '# PDF tag\n' +
+        '# NexT will try to load pdf files natively, if failed, pdf.js will be used.\n' +
+        '# So, you have to install the dependency of pdf.js if you want to use pdf tag and make it available to all browsers.\n' +
+        '# See: https://github.com/theme-next/theme-next-pdf\n' +
+        'pdf:\n' +
+        '  enable: false\n' +
+        '  # Default height\n' +
+        '  height: 500px\n' +
+        '\n' +
+        '# Mermaid tag\n' +
+        'mermaid:\n' +
+        '  enable: false\n' +
+        '  # Available themes: default | dark | forest | neutral\n' +
+        '  theme: forest\n' +
+        '\n' +
+        '\n' +
+        '# ---------------------------------------------------------------\n' +
+        '# Animation Settings\n' +
+        '# ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Use velocity to animate everything.\n' +
+        '# For more information: http://velocityjs.org\n' +
+        'motion:\n' +
+        '  enable: true\n' +
+        '  async: false\n' +
+        '  transition:\n' +
+        '    # Transition variants:\n' +
+        '    # fadeIn | flipXIn | flipYIn | flipBounceXIn | flipBounceYIn\n' +
+        '    # swoopIn | whirlIn | shrinkIn | expandIn\n' +
+        '    # bounceIn | bounceUpIn | bounceDownIn | bounceLeftIn | bounceRightIn\n' +
+        '    # slideUpIn | slideDownIn | slideLeftIn | slideRightIn\n' +
+        '    # slideUpBigIn | slideDownBigIn | slideLeftBigIn | slideRightBigIn\n' +
+        '    # perspectiveUpIn | perspectiveDownIn | perspectiveLeftIn | perspectiveRightIn\n' +
+        '    post_block: fadeIn\n' +
+        '    post_header: slideDownIn\n' +
+        '    post_body: slideDownIn\n' +
+        '    coll_header: slideLeftIn\n' +
+        '    # Only for Pisces | Gemini.\n' +
+        '    sidebar: slideUpIn\n' +
+        '\n' +
+        '# Progress bar in the top during page loading.\n' +
+        '# Dependencies: https://github.com/theme-next/theme-next-pace\n' +
+        '# For more information: https://github.com/HubSpot/pace\n' +
+        'pace:\n' +
+        '  enable: false\n' +
+        '  # Themes list:\n' +
+        '  # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple\n' +
+        '  # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal\n' +
+        '  theme: minimal\n' +
+        '\n' +
+        '# JavaScript 3D library.\n' +
+        '# Dependencies: https://github.com/theme-next/theme-next-three\n' +
+        'three:\n' +
+        '  enable: false\n' +
+        '  three_waves: false\n' +
+        '  canvas_lines: false\n' +
+        '  canvas_sphere: false\n' +
+        '\n' +
+        '# Canvas-ribbon\n' +
+        '# Dependencies: https://github.com/theme-next/theme-next-canvas-ribbon\n' +
+        '# For more information: https://github.com/zproo/canvas-ribbon\n' +
+        'canvas_ribbon:\n' +
+        '  enable: false\n' +
+        '  size: 300 # The width of the ribbon\n' +
+        '  alpha: 0.6 # The transparency of the ribbon\n' +
+        '  zIndex: -1 # The display level of the ribbon\n' +
+        '\n' +
+        '\n' +
+        '#! ---------------------------------------------------------------\n' +
+        '#! DO NOT EDIT THE FOLLOWING SETTINGS\n' +
+        '#! UNLESS YOU KNOW WHAT YOU ARE DOING\n' +
+        '#! See: https://theme-next.org/docs/advanced-settings\n' +
+        '#! ---------------------------------------------------------------\n' +
+        '\n' +
+        '# Script Vendors. Set a CDN address for the vendor you want to customize.\n' +
+        '# Be aware that you would better use the same version as internal ones to avoid potential problems.\n' +
+        '# Remember to use the https protocol of CDN files when you enable https on your site.\n' +
+        'vendors:\n' +
+        '  # Internal path prefix.\n' +
+        '  _internal: lib\n' +
+        '\n' +
+        '  # Internal version: 3.1.0\n' +
+        '  # anime: //cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js\n' +
+        '  anime:\n' +
+        '\n' +
+        '  # Internal version: 5.13.0\n' +
+        '  # fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css\n' +
+        '  # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css\n' +
+        '  fontawesome:\n' +
+        '\n' +
+        '  # MathJax\n' +
+        '  # mathjax: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\n' +
+        '  mathjax:\n' +
+        '\n' +
+        '  # KaTeX\n' +
+        '  # katex: //cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css\n' +
+        '  # katex: //cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css\n' +
+        '  # copy_tex_js: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.js\n' +
+        '  # copy_tex_css: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.css\n' +
+        '  katex:\n' +
+        '  copy_tex_js:\n' +
+        '  copy_tex_css:\n' +
+        '\n' +
+        '  # Internal version: 0.2.8\n' +
+        '  # pjax: //cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js\n' +
+        '  pjax:\n' +
+        '\n' +
+        '  # FancyBox\n' +
+        '  # jquery: //cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js\n' +
+        '  # fancybox: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js\n' +
+        '  # fancybox_css: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css\n' +
+        '  jquery:\n' +
+        '  fancybox:\n' +
+        '  fancybox_css:\n' +
+        '\n' +
+        '  # Medium-zoom\n' +
+        '  # mediumzoom: //cdn.jsdelivr.net/npm/medium-zoom@1/dist/medium-zoom.min.js\n' +
+        '  mediumzoom:\n' +
+        '\n' +
+        '  # Lazyload\n' +
+        '  # lazyload: //cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js\n' +
+        '  # lazyload: //cdnjs.cloudflare.com/ajax/libs/lozad.js/1.14.0/lozad.min.js\n' +
+        '  lazyload:\n' +
+        '\n' +
+        '  # Pangu\n' +
+        '  # pangu: //cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js\n' +
+        '  # pangu: //cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js\n' +
+        '  pangu:\n' +
+        '\n' +
+        '  # Quicklink\n' +
+        '  # quicklink: //cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js\n' +
+        '  quicklink:\n' +
+        '\n' +
+        '  # DisqusJS\n' +
+        '  # disqusjs_js: //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js\n' +
+        '  # disqusjs_css: //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css\n' +
+        '  disqusjs_js:\n' +
+        '  disqusjs_css:\n' +
+        '\n' +
+        '  # Valine\n' +
+        '  # valine: //cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js\n' +
+        '  # valine: //cdnjs.cloudflare.com/ajax/libs/valine/1.3.10/Valine.min.js\n' +
+        '  valine:\n' +
+        '\n' +
+        '  # Gitalk\n' +
+        '  # gitalk_js: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js\n' +
+        '  # gitalk_css: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css\n' +
+        '  gitalk_js:\n' +
+        '  gitalk_css:\n' +
+        '\n' +
+        '  # Algolia Search\n' +
+        '  # algolia_search: //cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js\n' +
+        '  # instant_search: //cdn.jsdelivr.net/npm/instantsearch.js@4/dist/instantsearch.production.min.js\n' +
+        '  algolia_search:\n' +
+        '  instant_search:\n' +
+        '\n' +
+        '  # Mermaid\n' +
+        '  # mermaid: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js\n' +
+        '  # mermaid: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js\n' +
+        '  mermaid:\n' +
+        '\n' +
+        '  # Internal version: 1.2.1\n' +
+        '  # velocity: //cdn.jsdelivr.net/npm/velocity-animate@1/velocity.min.js\n' +
+        '  # velocity: //cdnjs.cloudflare.com/ajax/libs/velocity/1.2.1/velocity.min.js\n' +
+        '  # velocity_ui: //cdn.jsdelivr.net/npm/velocity-animate@1/velocity.ui.min.js\n' +
+        '  # velocity_ui: //cdnjs.cloudflare.com/ajax/libs/velocity/1.2.1/velocity.ui.min.js\n' +
+        '  velocity:\n' +
+        '  velocity_ui:\n' +
+        '\n' +
+        '  # Internal version: 1.0.2\n' +
+        '  # pace: //cdn.jsdelivr.net/npm/pace-js@1/pace.min.js\n' +
+        '  # pace: //cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js\n' +
+        '  # pace_css: //cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.css\n' +
+        '  # pace_css: //cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/blue/pace-theme-minimal.min.css\n' +
+        '  pace:\n' +
+        '  pace_css:\n' +
+        '\n' +
+        '  # Internal version: 1.0.0\n' +
+        '  # three: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three.min.js\n' +
+        '  # three_waves: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three-waves.min.js\n' +
+        '  # canvas_lines: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_lines.min.js\n' +
+        '  # canvas_sphere: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_sphere.min.js\n' +
+        '  three:\n' +
+        '  three_waves:\n' +
+        '  canvas_lines:\n' +
+        '  canvas_sphere:\n' +
+        '\n' +
+        '  # Internal version: 1.0.0\n' +
+        '  # canvas_ribbon: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js\n' +
+        '  canvas_ribbon:\n' +
+        '\n' +
+        '# Assets\n' +
+        'css: css\n' +
+        'js: js\n' +
+        'images: images\n',
+      position: 2170,
+      line: 59,
+      column: 2,
+      snippet: ' 57 |   #since: 2015\n' +
+        ' 58 | \n' +
+        ' 59 |   # Icon between year and copyrig ...\n' +
+        ' 60 |   icon:\n' +
+        '--------^\n' +
+        ' 61 |     # Icon name in Font Awesome.  ...\n' +
+        ' 62 |     name: fa fa-heart'
+    }
+  }
+} Process failed: %s _config.yml
+0
+k is  0
+good
+restart
+Fri 03 Dec 2021 02:43:07 AM CST
+INFO  Validating config
+FATAL Port 80 has been used. Try other port instead.
+FATAL {
+  err: Error: listen EADDRINUSE: address already in use :::80
+      at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+      at listenInCluster (net.js:1364:12)
+      at Server.listen (net.js:1450:7)
+      at /root/MYBLOG/node_modules/hexo-server/lib/server.js:69:12
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at checkPort (/root/MYBLOG/node_modules/hexo-server/lib/server.js:66:10)
+      at Hexo.module.exports (/root/MYBLOG/node_modules/hexo-server/lib/server.js:18:10)
+      at Hexo.tryCatcher (/root/MYBLOG/node_modules/bluebird/js/release/util.js:16:23)
+      at Hexo.<anonymous> (/root/MYBLOG/node_modules/bluebird/js/release/method.js:15:34)
+      at /root/MYBLOG/node_modules/hexo/lib/hexo/index.js:260:17
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at Hexo.call (/root/MYBLOG/node_modules/hexo/lib/hexo/index.js:256:12)
+      at /usr/local/lib/node_modules/hexo-cli/lib/hexo.js:60:17
+      at tryCatcher (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)
+      at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:547:31)
+      at Promise._settlePromise (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:604:18)
+      at Promise._settlePromise0 (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:649:10)
+      at Promise._settlePromises (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:729:18) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 80
+  }
+} Something's wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html
+0
+k is  0
+good
+restart
+Fri 03 Dec 2021 02:45:07 AM CST
+INFO  Validating config
+FATAL Port 80 has been used. Try other port instead.
+FATAL {
+  err: Error: listen EADDRINUSE: address already in use :::80
+      at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+      at listenInCluster (net.js:1364:12)
+      at Server.listen (net.js:1450:7)
+      at /root/MYBLOG/node_modules/hexo-server/lib/server.js:69:12
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at checkPort (/root/MYBLOG/node_modules/hexo-server/lib/server.js:66:10)
+      at Hexo.module.exports (/root/MYBLOG/node_modules/hexo-server/lib/server.js:18:10)
+      at Hexo.tryCatcher (/root/MYBLOG/node_modules/bluebird/js/release/util.js:16:23)
+      at Hexo.<anonymous> (/root/MYBLOG/node_modules/bluebird/js/release/method.js:15:34)
+      at /root/MYBLOG/node_modules/hexo/lib/hexo/index.js:260:17
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at Hexo.call (/root/MYBLOG/node_modules/hexo/lib/hexo/index.js:256:12)
+      at /usr/local/lib/node_modules/hexo-cli/lib/hexo.js:60:17
+      at tryCatcher (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)
+      at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:547:31)
+      at Promise._settlePromise (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:604:18)
+      at Promise._settlePromise0 (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:649:10)
+      at Promise._settlePromises (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:729:18) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 80
+  }
+} Something's wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html
+0
+k is  0
+good
+restart
+Fri 03 Dec 2021 02:47:07 AM CST
+INFO  Validating config
+FATAL Port 80 has been used. Try other port instead.
+FATAL {
+  err: Error: listen EADDRINUSE: address already in use :::80
+      at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+      at listenInCluster (net.js:1364:12)
+      at Server.listen (net.js:1450:7)
+      at /root/MYBLOG/node_modules/hexo-server/lib/server.js:69:12
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at checkPort (/root/MYBLOG/node_modules/hexo-server/lib/server.js:66:10)
+      at Hexo.module.exports (/root/MYBLOG/node_modules/hexo-server/lib/server.js:18:10)
+      at Hexo.tryCatcher (/root/MYBLOG/node_modules/bluebird/js/release/util.js:16:23)
+      at Hexo.<anonymous> (/root/MYBLOG/node_modules/bluebird/js/release/method.js:15:34)
+      at /root/MYBLOG/node_modules/hexo/lib/hexo/index.js:260:17
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at Hexo.call (/root/MYBLOG/node_modules/hexo/lib/hexo/index.js:256:12)
+      at /usr/local/lib/node_modules/hexo-cli/lib/hexo.js:60:17
+      at tryCatcher (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)
+      at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:547:31)
+      at Promise._settlePromise (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:604:18)
+      at Promise._settlePromise0 (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:649:10)
+      at Promise._settlePromises (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:729:18) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 80
+  }
+} Something's wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html
+0
+k is  0
+good
+restart
+Fri 03 Dec 2021 02:49:07 AM CST
+INFO  Validating config
+FATAL Port 80 has been used. Try other port instead.
+FATAL {
+  err: Error: listen EADDRINUSE: address already in use :::80
+      at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+      at listenInCluster (net.js:1364:12)
+      at Server.listen (net.js:1450:7)
+      at /root/MYBLOG/node_modules/hexo-server/lib/server.js:69:12
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at checkPort (/root/MYBLOG/node_modules/hexo-server/lib/server.js:66:10)
+      at Hexo.module.exports (/root/MYBLOG/node_modules/hexo-server/lib/server.js:18:10)
+      at Hexo.tryCatcher (/root/MYBLOG/node_modules/bluebird/js/release/util.js:16:23)
+      at Hexo.<anonymous> (/root/MYBLOG/node_modules/bluebird/js/release/method.js:15:34)
+      at /root/MYBLOG/node_modules/hexo/lib/hexo/index.js:260:17
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at Hexo.call (/root/MYBLOG/node_modules/hexo/lib/hexo/index.js:256:12)
+      at /usr/local/lib/node_modules/hexo-cli/lib/hexo.js:60:17
+      at tryCatcher (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)
+      at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:547:31)
+      at Promise._settlePromise (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:604:18)
+      at Promise._settlePromise0 (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:649:10)
+      at Promise._settlePromises (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:729:18) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 80
+  }
+} Something's wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html
+0
+k is  0
+good
+restart
+Fri 03 Dec 2021 02:51:07 AM CST
+INFO  Validating config
+FATAL Port 80 has been used. Try other port instead.
+FATAL {
+  err: Error: listen EADDRINUSE: address already in use :::80
+      at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+      at listenInCluster (net.js:1364:12)
+      at Server.listen (net.js:1450:7)
+      at /root/MYBLOG/node_modules/hexo-server/lib/server.js:69:12
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at checkPort (/root/MYBLOG/node_modules/hexo-server/lib/server.js:66:10)
+      at Hexo.module.exports (/root/MYBLOG/node_modules/hexo-server/lib/server.js:18:10)
+      at Hexo.tryCatcher (/root/MYBLOG/node_modules/bluebird/js/release/util.js:16:23)
+      at Hexo.<anonymous> (/root/MYBLOG/node_modules/bluebird/js/release/method.js:15:34)
+      at /root/MYBLOG/node_modules/hexo/lib/hexo/index.js:260:17
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at Hexo.call (/root/MYBLOG/node_modules/hexo/lib/hexo/index.js:256:12)
+      at /usr/local/lib/node_modules/hexo-cli/lib/hexo.js:60:17
+      at tryCatcher (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)
+      at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:547:31)
+      at Promise._settlePromise (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:604:18)
+      at Promise._settlePromise0 (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:649:10)
+      at Promise._settlePromises (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:729:18) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 80
+  }
+} Something's wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html
+0
+k is  0
+good
+restart
+Fri 03 Dec 2021 02:53:07 AM CST
+INFO  Validating config
+FATAL Port 80 has been used. Try other port instead.
+FATAL {
+  err: Error: listen EADDRINUSE: address already in use :::80
+      at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+      at listenInCluster (net.js:1364:12)
+      at Server.listen (net.js:1450:7)
+      at /root/MYBLOG/node_modules/hexo-server/lib/server.js:69:12
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at checkPort (/root/MYBLOG/node_modules/hexo-server/lib/server.js:66:10)
+      at Hexo.module.exports (/root/MYBLOG/node_modules/hexo-server/lib/server.js:18:10)
+      at Hexo.tryCatcher (/root/MYBLOG/node_modules/bluebird/js/release/util.js:16:23)
+      at Hexo.<anonymous> (/root/MYBLOG/node_modules/bluebird/js/release/method.js:15:34)
+      at /root/MYBLOG/node_modules/hexo/lib/hexo/index.js:260:17
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at Hexo.call (/root/MYBLOG/node_modules/hexo/lib/hexo/index.js:256:12)
+      at /usr/local/lib/node_modules/hexo-cli/lib/hexo.js:60:17
+      at tryCatcher (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)
+      at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:547:31)
+      at Promise._settlePromise (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:604:18)
+      at Promise._settlePromise0 (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:649:10)
+      at Promise._settlePromises (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:729:18) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 80
+  }
+} Something's wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html
+0
+k is  0
+good
+restart
+Fri 03 Dec 2021 02:55:07 AM CST
+INFO  Validating config
+FATAL Port 80 has been used. Try other port instead.
+FATAL {
+  err: Error: listen EADDRINUSE: address already in use :::80
+      at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+      at listenInCluster (net.js:1364:12)
+      at Server.listen (net.js:1450:7)
+      at /root/MYBLOG/node_modules/hexo-server/lib/server.js:69:12
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at checkPort (/root/MYBLOG/node_modules/hexo-server/lib/server.js:66:10)
+      at Hexo.module.exports (/root/MYBLOG/node_modules/hexo-server/lib/server.js:18:10)
+      at Hexo.tryCatcher (/root/MYBLOG/node_modules/bluebird/js/release/util.js:16:23)
+      at Hexo.<anonymous> (/root/MYBLOG/node_modules/bluebird/js/release/method.js:15:34)
+      at /root/MYBLOG/node_modules/hexo/lib/hexo/index.js:260:17
+      at Promise._execute (/root/MYBLOG/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/root/MYBLOG/node_modules/bluebird/js/release/promise.js:103:10)
+      at Hexo.call (/root/MYBLOG/node_modules/hexo/lib/hexo/index.js:256:12)
+      at /usr/local/lib/node_modules/hexo-cli/lib/hexo.js:60:17
+      at tryCatcher (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)
+      at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:547:31)
+      at Promise._settlePromise (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:604:18)
+      at Promise._settlePromise0 (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:649:10)
+      at Promise._settlePromises (/usr/local/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:729:18) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 80
+  }
+} Something's wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html
