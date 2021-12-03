@@ -58,5 +58,5 @@ tags:
 又想起"被酒莫惊春睡重，赌书消得泼茶香。"
 
 
-![](../_post/xinxuelaichaohuijia/feiji.jpg)
+![](./xinxuelaichaohuijia/feiji.jpg)
 

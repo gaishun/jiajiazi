@@ -8,7 +8,6 @@ tags:
 
 多图警告
 <!-- more -->
-
  ![](./shanghai/beer.jpg)
 
  ![](./shanghai/bishi.jpg)
